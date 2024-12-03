@@ -2,6 +2,14 @@ import { EventsTypes } from "./types";
 
 export const events: EventsTypes = [
   {
+    episode: 101,
+    type: "TheGrifter",
+    context: "From the African Commercial Transport and Trade Initiative",
+    timestamp: "29:40", // TODO Fix
+    character: "Sophie Devereaux",
+    subject: "Anna Gunschtot",
+  },
+  {
     type: "CharacterIntroduction",
     character: "Nate Ford",
     context: "A former insurance investigator.",
@@ -33,6 +41,22 @@ export const events: EventsTypes = [
     episode: 101,
     subject: "",
     timestamp: "04:10",
+  },
+  {
+    episode: 101,
+    type: "OhHellNo",
+    context: "This equiptment is total VH1 Bro.",
+    timestamp: "04:05",
+    character: "Hardison",
+    subject: "Ear piece",
+  },
+  {
+    episode: 101,
+    type: "OhHellNo",
+    context: "Transfer of funds man. Global Economy.",
+    timestamp: "17:25",
+    character: "Hardison",
+    subject: "Did you get paid?",
   },
   {
     episode: 101,
@@ -165,6 +189,31 @@ export const events: EventsTypes = [
     episode: 101,
     subject: "",
     timestamp: "19:37",
+  },
+  {
+    episode: 102,
+    type: "NotableQuotes",
+    context: "Hospital",
+    timestamp: "19:40",
+    character: "Nate Ford",
+    subject:
+      "Look guys here's your problem. You all know what you can do. I know what all you can do. That gives me the edge, that gives me the plan.",
+  },
+  {
+    episode: 102,
+    type: "TheGrifter",
+    context: "Hospital",
+    timestamp: "21:11",
+    character: "Elliot Spencer",
+    subject: "Detective Lieutenant Carden with the Illinoi State Police",
+  },
+  {
+    episode: 102,
+    type: "TheGrifter",
+    context: "Hospital",
+    timestamp: "21:30",
+    character: "Nate Ford",
+    subject: "Deputy Director McCumber of the FBI",
   },
   {
     type: "ParkerIsCrazy",
@@ -320,7 +369,7 @@ export const events: EventsTypes = [
     episode: 102,
     type: "ItsAVeryDistinctive",
     character: "Parker",
-    context: "You identified a gun by the sound?",
+    context: "You IDed the weapon from the gun shot sound?",
     subject: "sound",
     timestamp: "00:00",
   },
@@ -351,14 +400,14 @@ export const events: EventsTypes = [
   },
   {
     episode: 102,
-    type: "SomeoneIsAngry",
-    character: "Eliot Spencer",
-    context: "I'm going to kill him.",
-    subject: "Hardison",
-    timestamp: "00:00",
+    type: "NateTheMasterMind",
+    character: "Sophie",
+    context: "This (glass of Scotch) is for later",
+    subject: "May I put that away from you? (Takes away bottle)",
+    timestamp: "21:10",
   },
   {
-    episode: 101,
+    episode: 102,
     type: "LetsGoStealA",
     context: "Oh but steal a law... She's going to be a legend baby...",
     timestamp: "29:26",
@@ -380,5 +429,74 @@ export const events: EventsTypes = [
     timestamp: "00:00",
     character: "Eliot Spencer",
     subject: "Hardison",
+  },
+  {
+    episode: 102,
+    type: "TheGrifter",
+    context: "Dinner Party",
+    timestamp: "10:50",
+    character: "Sophie Devereaux",
+    subject: "Lilly McCredy of Executive Orders",
+  },
+  {
+    episode: 102,
+    type: "TheGrifter",
+    context: "Dinner Party",
+    timestamp: "22:10",
+    character: "Nate Ford",
+    subject:
+      "Tom Abrams, you can call me Tommy I work with congressman Calloway",
+  },
+  {
+    episode: 102,
+    type: "NotableQuotes",
+    context:
+      "I'm sorry its too far away for you to punch. I'm sure that really frustrates you.",
+    timestamp: "28:30",
+    character: "Hardison",
+    subject: "Disabling the webcam",
+  },
+  {
+    episode: 102,
+    type: "ParkerIsCrazy",
+    context:
+      "What is it you have going on? you and Hardison? like a creepy contest?",
+    timestamp: "30:12",
+    character: "Eliot Spencer",
+    subject: "It's real... It feels real...",
+  },
+  {
+    episode: 102,
+    type: "ParkerIsCrazy",
+    context:
+      "They changed the locks. Just do what you do? [Pulls out bomb]. Oh hell no.",
+    timestamp: "33:55",
+    character: "Hardison",
+    subject: "Bomb",
+  },
+  {
+    episode: 102,
+    type: "OhHellNo",
+    context: "[Parker reveals explosive]. Oh hell no.",
+    timestamp: "33:55",
+    character: "Hardison",
+    subject: "Bomb",
+  },
+  {
+    episode: 102,
+    type: "NotableQuotes",
+    context:
+      "[Nate] Anyone who wants to walk away may do so right now. [Elliot] One More",
+    timestamp: "28:30",
+    character: "Nate Ford",
+    subject: "",
+  },
+  {
+    episode: 102,
+    type: "TheGrifter",
+    context: "Dinner Party",
+    timestamp: "10:50",
+    character: "Sophie Devereaux",
+    subject: "Lilly McCredy of Executive Orders",
   },
 ];
