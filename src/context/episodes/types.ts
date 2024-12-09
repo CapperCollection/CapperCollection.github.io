@@ -1,10 +1,17 @@
-type ExposeType = "Media" | "FBI";
+type ExposeType =
+  | "Media"
+  | "FBI"
+  | "Company"
+  | "Police"
+  | "Insurance"
+  | "Colleagues";
 
 type MotiveType =
   | "Corporate Greed"
   | "Cash Theft"
   | "Political Greed"
   | "Money Laundering"
+  | "Insurance Fraud"
   | "Mobster Greed";
 
 type CharacterType = {

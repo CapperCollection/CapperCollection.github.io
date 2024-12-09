@@ -1,6 +1,7 @@
 import { EventsTypes } from "./types";
 
 export const events: EventsTypes = [
+  // Episode 101 - The Nigerian Job
   {
     episode: 101,
     type: "TheGrifter",
@@ -165,6 +166,14 @@ export const events: EventsTypes = [
     timestamp: "12:55",
   },
   {
+    type: "ConName",
+    character: "Nate Ford",
+    subject: "The Burn Scam",
+    context: "",
+    episode: 101,
+    timestamp: "13:20",
+  },
+  {
     type: "AlternatePlans",
     character: "Nate Ford",
     context: "Technically that would be plan G. Hardison dies in plan M.",
@@ -190,6 +199,7 @@ export const events: EventsTypes = [
     subject: "",
     timestamp: "19:37",
   },
+  // Episode 102 - The Homecoming Job
   {
     episode: 102,
     type: "NotableQuotes",
@@ -498,5 +508,191 @@ export const events: EventsTypes = [
     timestamp: "10:50",
     character: "Sophie Devereaux",
     subject: "Lilly McCredy of Executive Orders",
+  },
+  // Episode 103 - The Two-Horse Job
+
+  {
+    episode: 103,
+    type: "TheGrifter",
+    context: "Horse Trainer",
+    timestamp: "08:12",
+    character: "Elliot Spencer",
+    subject: "Brad Macky",
+  },
+  {
+    episode: 103,
+    type: "TheGrifter",
+    context: "The Poker Game",
+    timestamp: "08:00",
+    character: "Elliot Spencer",
+    subject: "Sheikh Khalid of Dubai",
+  },
+  {
+    episode: 103,
+    type: "TheGrifter",
+    context: "Horse Owner",
+    timestamp: "08:27",
+    character: "Nate Ford",
+    subject: "Bob Gibson",
+  },
+  {
+    episode: 103,
+    type: "TheGrifter",
+    context: "",
+    timestamp: "06:15",
+    character: "Sophie Devereaux",
+    subject: "Catherine Beth Lovery",
+  },
+  {
+    episode: 103,
+    type: "ParkerIsCrazy",
+    context: "I just really don't like horses.",
+    timestamp: "03:30",
+    character: "Parker",
+    subject: "I once saw a horse kill a clown.",
+  },
+  {
+    episode: 103,
+    type: "WrathOfThe",
+    context: "",
+    timestamp: "04:12",
+    character: "Elliot Spencer",
+    subject: "After the fire-- It was a Massacre. A Massacre",
+  },
+  {
+    timestamp: "11:00",
+    character: "Nate Ford",
+    episode: 103,
+    context: "Horse Racing",
+    subject:
+      "I'll tell everyone from Vegas to Houston That Allan Foss welches on his bets.",
+    type: "TheSting",
+  },
+  {
+    episode: 103,
+    type: "CharacterIntroduction",
+    context: "Why are you playing poker with my client Nate?",
+    timestamp: "11:30",
+    character: "James Sterling",
+    subject: "IYS Insurance",
+  },
+  {
+    episode: 103,
+    type: "PriorThefts",
+    context:
+      "I haven't seen you since that little cooup in Sierra Leone. This is getting very interesting.",
+    timestamp: "13:08",
+    character: "James Sterling",
+    subject: "Sophie Devereaux",
+  },
+
+  {
+    episode: 103,
+    type: "BlastFromThePast",
+    context:
+      "I thought you said you were fine with this. I thought you said you were coming back in three weeks.",
+    timestamp: "15:05",
+    character: "Aimee Martin",
+    subject: "Elliot Spencer",
+  },
+  {
+    episode: 103,
+    type: "Outmanuvered",
+    context:
+      "I just passed a black van. I can't be sure but I heard screaming inside. Yeah, and there was blood all on the back of the doors.",
+    timestamp: "16:00",
+    character: "James Sterling",
+    subject: "Alec Hardison & Perker",
+  },
+  {
+    episode: 103,
+    type: "Flashback",
+    context: "Tell us what you did with the monkey! Where is the monkey?",
+    timestamp: "19:29",
+    character: "Elliot Spencer",
+    subject: "Aimee Martin",
+  },
+  {
+    episode: 103,
+    type: "ConName",
+    context: "With horses it's all about bloodlines.",
+    timestamp: "20:49",
+    character: "Nate Ford",
+    subject: "The Lost Heir",
+  },
+  {
+    episode: 103,
+    type: "LetsGoStealA",
+    context:
+      "We are going to sell this guy the greatest horse that ever lived...",
+    timestamp: "21:20",
+    character: "Nate Ford",
+    subject: "",
+  },
+  {
+    episode: 103,
+    type: "AlecTheHacker",
+    context:
+      "A couple years ago all the cell phone companies went digital with their voice mail systems. Man it was like someone put a brand new swingset on my playground.",
+    timestamp: "23:00",
+    character: "Alec Hardison",
+    subject: "Kentucky Thunder's trainer",
+  },
+  {
+    episode: 103,
+    type: "ParkerIsCrazy",
+    context:
+      "Looks like parker is going to have to crawl through the air duct again. God forbid anyone else would have to learn how to crawl on their stomach through a tiny space. Its not rocket science people.",
+    timestamp: "31:43",
+    character: "Parker",
+    subject: "Parker you realize we can still hear you",
+  },
+  {
+    episode: 103,
+    type: "TastefulCutAway",
+    context: "Horse stall",
+    timestamp: "19:45",
+    character: "Elliot Spencer",
+    subject: "Aimee Martin",
+  },
+  {
+    episode: 103,
+    type: "Outmanuvered",
+    context: "Did you get some nice pictures?",
+    timestamp: "28:00",
+    character: "James Sterling",
+    subject: "Leverage Inc.",
+  },
+  {
+    episode: 103,
+    type: "LetsGoStealA",
+    context: "",
+    timestamp: "",
+    character: "Nate Ford",
+    subject: "",
+  },
+  {
+    episode: 103,
+    type: "LetsGoStealA",
+    context: "",
+    timestamp: "",
+    character: "Nate Ford",
+    subject: "",
+  },
+  {
+    episode: 103,
+    type: "LetsGoStealA",
+    context: "",
+    timestamp: "",
+    character: "Nate Ford",
+    subject: "",
+  },
+  {
+    episode: 103,
+    type: "LetsGoStealA",
+    context: "",
+    timestamp: "",
+    character: "Nate Ford",
+    subject: "",
   },
 ];

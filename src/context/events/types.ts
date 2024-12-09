@@ -2,9 +2,11 @@ type EventTypeType =
   | "TitleDrop"
   | "AlternatePlans"
   | "LetsGoStealA"
+  | "ConName"
   /* Character Development */
   | "CharacterIntroduction"
   | "Flashback"
+  | "BlastFromThePast"
   | "NewJobUnlocked"
   | "PriorThefts"
   /* Story Elements */
@@ -16,6 +18,8 @@ type EventTypeType =
   | "SomeoneIsAngry"
   | "TheGrifter"
   | "WrathOfThe"
+  | "Outmanuvered"
+  | "TastefulCutAway"
   /* Hardison Moments */
   | "OhHellNo"
   | "AgeOfThe"
@@ -32,7 +36,9 @@ type EventTypeType =
   | "SophieTheActingCoach"
   /* Parker Moments */
   | "ParkerIsCrazy"
-  | "ParkerTheThief";
+  | "ParkerTheThief"
+  /* References to the String */
+  | "TheSting";
 
 type MainCharactersType =
   | "Nate Ford"

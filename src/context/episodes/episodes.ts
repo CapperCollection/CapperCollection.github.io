@@ -19,12 +19,12 @@ export const Episodes: EpisodesType = [
       },
     ],
     motive: ["Corporate Greed"],
-    exposedTo: ["FBI"],
+    exposedTo: ["FBI", "Company"],
   },
   {
     episode: 102,
     title: "The Homecoming Job",
-    date: "December 14, 2008",
+    date: "December 9, 2008",
     locations: ["Los Angeles"],
     antagonist: [
       {
@@ -55,9 +55,23 @@ export const Episodes: EpisodesType = [
     title: "The Two-Horse Job",
     date: "December 16, 2008",
     locations: ["Louisville"],
-    antagonist: [],
-    victims: [],
-    motive: [],
-    exposedTo: ["Media"],
+    antagonist: [
+      {
+        name: "Alan Foss",
+        occupation: "CEO of InterNational Mining",
+      },
+    ],
+    victims: [
+      {
+        name: "Aimee Martin",
+        occupation: "Horse Trainer",
+      },
+      {
+        name: "Willie Martin",
+        occupation: "Horse Trainer",
+      },
+    ],
+    motive: ["Insurance Fraud"],
+    exposedTo: ["Insurance", "Colleagues"],
   },
 ];
