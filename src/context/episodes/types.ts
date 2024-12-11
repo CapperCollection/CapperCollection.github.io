@@ -31,3 +31,11 @@ type EpisodeType = {
 };
 
 export type EpisodesType = EpisodeType[];
+
+export interface EpisodesProviderProps {
+  children: React.ReactNode;
+}
+
+export type EpisodesContextProps = {
+  episodes: EpisodesType;
+};

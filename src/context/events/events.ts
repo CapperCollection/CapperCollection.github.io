@@ -3,14 +3,6 @@ import { EventsTypes } from "./types";
 export const events: EventsTypes = [
   // Episode 101 - The Nigerian Job
   {
-    episode: 101,
-    type: "TheGrifter",
-    context: "From the African Commercial Transport and Trade Initiative",
-    timestamp: "29:40", // TODO Fix
-    character: "Sophie Devereaux",
-    subject: "Anna Gunschtot",
-  },
-  {
     type: "CharacterIntroduction",
     character: "Nate Ford",
     context: "A former insurance investigator.",
@@ -37,8 +29,10 @@ export const events: EventsTypes = [
   {
     type: "RecurringMaguffin",
     character: "Alec Hardison",
-    context:
+    context: "",
+    text: [
       "Bone-conduction ear piece mike. Works off the movement of your jaw.",
+    ],
     episode: 101,
     subject: "",
     timestamp: "04:10",
@@ -46,7 +40,8 @@ export const events: EventsTypes = [
   {
     episode: 101,
     type: "OhHellNo",
-    context: "This equiptment is total VH1 Bro.",
+    text: ["This equiptment is total VH1 Bro."],
+    context: "",
     timestamp: "04:05",
     character: "Hardison",
     subject: "Ear piece",
@@ -54,7 +49,8 @@ export const events: EventsTypes = [
   {
     episode: 101,
     type: "OhHellNo",
-    context: "Transfer of funds man. Global Economy.",
+    context: "",
+    text: ["Transfer of funds man. Global Economy."],
     timestamp: "17:25",
     character: "Hardison",
     subject: "Did you get paid?",
@@ -62,7 +58,9 @@ export const events: EventsTypes = [
   {
     episode: 101,
     character: "Alec Hardison",
-    context: "NYC 5 years ago. Does that look like Mick Jager to you?",
+    context:
+      "NYC 5 years ago - Hardison and several women dressed as Princess Leia",
+    text: ["Does that look like Mick Jager to you?"],
     subject: "",
     timestamp: "04:16",
     type: "Flashback",
@@ -73,21 +71,23 @@ export const events: EventsTypes = [
     context: "Rooftop",
     episode: 101,
     subject: "Retrieval Specialist",
-    timestamp: "00:00",
+    timestamp: "04:50",
   },
   {
     episode: 101,
     character: "Elilot Spencer",
     context:
+      "Elliot clears a room full of men with guns to retrieve a baseball card...",
+    subject:
       "Belgrade Serbia 3 years ago. I'm here to collect the merchandise?",
-    subject: "",
     timestamp: "04:40",
     type: "Flashback",
   },
   {
     type: "AgeOfThe",
     character: "Elliot Spencer",
-    context: "Age of the geed baby, we run the world.",
+    context: "",
+    text: ["Age of the geed baby, we run the world."],
     episode: 101,
     subject: "Geek",
     timestamp: "05:33",
@@ -103,24 +103,28 @@ export const events: EventsTypes = [
   {
     episode: 101,
     character: "Parker",
-    context:
-      "You don't get bunny until you do what I say. So be a good girl. Or I don't know... a better thief.",
+    context: "House explodes and a child skips away with a stuffed rabbit",
     subject: "",
+    text: [
+      "You don't get bunny until you do what I say. So be a good girl. Or I don't know... a better thief.",
+    ],
     timestamp: "05:50",
     type: "Flashback",
   },
   {
     episode: 101,
     character: "Parker",
-    context: "Last time I used this rig was Paris 2003",
+    context: "",
+    text: ["Last time I used this rig was Paris 2003"],
     subject: "Are you talking about the Caravaggio? You stole that?",
     timestamp: "06:27",
     type: "PriorThefts",
   },
   {
-    type: "ParkerTheThief",
+    type: "ParkerIsCrazy",
     character: "Parker",
-    context: "She's gone! Son of a...",
+    context: "",
+    text: ["She's gone!", "Son of a..."],
     episode: 101,
     subject: "",
     timestamp: "06:58",
@@ -128,7 +132,8 @@ export const events: EventsTypes = [
   {
     type: "SomeoneIsAngry",
     character: "Eliot Spencer",
-    context: "That's 20 pounds of crazy in a 5 pound bag.",
+    context: "",
+    text: ["That's 20 pounds of crazy in a 5 pound bag."],
     episode: 101,
     subject: "Parker",
     timestamp: "07:00",
@@ -136,7 +141,8 @@ export const events: EventsTypes = [
   {
     type: "NateTheMasterMind",
     character: "Parker",
-    context: "Count the haircuts... I would have missed that.",
+    context: "",
+    text: ["Count the haircuts... I would have missed that."],
     episode: 101,
     subject: "Nate Ford",
     timestamp: "09:23",
@@ -144,7 +150,8 @@ export const events: EventsTypes = [
   {
     type: "ElliotTheHitter",
     character: "Eliot Spencer",
-    context: "I want you to clear the zone, and use Hardison as bait.",
+    context: "",
+    text: ["I want you to clear the zone, and use Hardison as bait."],
     episode: 101,
     subject: "That's what I do.",
     timestamp: "11:14",
@@ -152,7 +159,11 @@ export const events: EventsTypes = [
   {
     type: "AlecTheHacker",
     character: "Alec Hardison",
-    context: "Did you give them a virus? Dude I gave them more than one virus.",
+    context: "",
+    text: [
+      "Did you give them a virus?",
+      "Dude I gave them more than one virus.",
+    ],
     episode: 101,
     subject: "",
     timestamp: "12:18",
@@ -160,7 +171,8 @@ export const events: EventsTypes = [
   {
     type: "NateTheMasterMind",
     character: "Nate Ford",
-    context: "I'm the one with a plan.",
+    context: "",
+    text: ["I'm the one with a plan."],
     episode: 101,
     subject: "",
     timestamp: "12:55",
@@ -176,7 +188,8 @@ export const events: EventsTypes = [
   {
     type: "AlternatePlans",
     character: "Nate Ford",
-    context: "Technically that would be plan G. Hardison dies in plan M.",
+    context: "",
+    text: ["Technically that would be plan G. Hardison dies in plan M."],
     episode: 101,
     subject: "The Burn Scam",
     timestamp: "13:20",
@@ -184,8 +197,10 @@ export const events: EventsTypes = [
   {
     type: "BetrayalMostFoul",
     character: "Victor Dubenich",
-    context:
+    context: "",
+    text: [
       "The only way to is to get us all in the same place at the same time is to tell us that we're not getting paid.",
+    ],
     episode: 101,
     subject: "Leverage Inc.",
     timestamp: "14:00",
@@ -193,24 +208,36 @@ export const events: EventsTypes = [
   {
     type: "NateTheMasterMind",
     character: "Nate Ford",
-    context:
+    context: "",
+    text: [
       "You all know what you can do. I know what you all can do. That gives me the edge, that gives me the plan.",
+    ],
     episode: 101,
     subject: "",
     timestamp: "19:37",
   },
-  // Episode 102 - The Homecoming Job
   {
-    episode: 102,
+    episode: 101,
+    type: "NateDoesnLikeHospitals",
+    context: "",
+    text: ["You don't like hospitals.", "Not much."],
+    timestamp: "18:33",
+    character: "Elliot Spencer",
+    subject: "Nate Ford",
+  },
+  {
+    episode: 101,
     type: "NotableQuotes",
     context: "Hospital",
     timestamp: "19:40",
     character: "Nate Ford",
-    subject:
+    subject: "",
+    text: [
       "Look guys here's your problem. You all know what you can do. I know what all you can do. That gives me the edge, that gives me the plan.",
+    ],
   },
   {
-    episode: 102,
+    episode: 101,
     type: "TheGrifter",
     context: "Hospital",
     timestamp: "21:11",
@@ -218,7 +245,7 @@ export const events: EventsTypes = [
     subject: "Detective Lieutenant Carden with the Illinoi State Police",
   },
   {
-    episode: 102,
+    episode: 101,
     type: "TheGrifter",
     context: "Hospital",
     timestamp: "21:30",
@@ -228,7 +255,8 @@ export const events: EventsTypes = [
   {
     type: "ParkerIsCrazy",
     character: "Eliot Spencer",
-    context: "I take that personally... There is something wrong with you.",
+    context: "",
+    text: ["I take that personally", "There is something wrong with you."],
     episode: 101,
     subject: "Parker",
     timestamp: "23:02",
@@ -259,25 +287,40 @@ export const events: EventsTypes = [
   },
   {
     episode: 101,
-    context: "Paris - Freeze! You Wanker",
+    context:
+      "Paris - Nate bursts into a room and is shot by Sohpie. He immediately returns fire.",
     timestamp: "05:50",
     character: "Sophie Devereaux",
-    subject: "",
+    subject: "You shot me! You wanker!",
     type: "Flashback",
   },
   {
     episode: 101,
     type: "LetsGoStealA",
-    context: "I'm thinking Nigerians. Nigerians will do nicely.",
+    context: "",
+    text: [
+      "I'm thinking Nigerians. Nigerians will do nicely.",
+      "Well he hasn't changed a bit.",
+    ],
     timestamp: "29:26",
     character: "Nate Form",
     subject: "Victor Dubenich",
   },
   {
     episode: 101,
+    type: "TheGrifter",
+    context: "From the African Commercial Transport and Trade Initiative",
+    timestamp: "29:40",
+    character: "Sophie Devereaux",
+    subject: "Anna Gunschtot",
+  },
+  {
+    episode: 101,
     type: "SophieTheActress",
-    context:
+    context: "",
+    text: [
       "Sophie Devereaux is the finest actress you've ever seen when she's breaking the law",
+    ],
     timestamp: "30:32",
     character: "Sophie Devereaux",
     subject: "Anna Gunstott",
@@ -286,32 +329,37 @@ export const events: EventsTypes = [
     episode: 101,
     timestamp: "37:07",
     type: "Flashback",
-    context: "How do they justify that? They claimed it was experimental.",
-    subject: "Nathan's son",
+    context: "Nate at the bedside of his dying son",
+    subject: "",
+    text: ["How do they justify that?", "They claimed it was experimental."],
     character: "Nathan Ford",
   },
   {
     episode: 101,
     timestamp: "37:07",
     type: "RomanticMoments",
-    context: "This time you really are in my head.",
+    context: "",
+    text: ["This time you really are in my head."],
     subject: "Nathan Ford",
     character: "Sophie Devereaux",
   },
   {
     type: "ParkerIsCrazy",
     character: "Parker",
-    context: "What's it for? Speed.",
+    context: "",
+    text: ["What's it for?", "Speed."],
     episode: 101,
     subject: "Sophie Devereaux",
     timestamp: "39:45",
   },
-
   {
     type: "ParkerIsCrazy",
     character: "Sophie Devereaux",
-    context:
-      "What is it with women and shoes? There is something wrong with you.",
+    context: "",
+    text: [
+      "What is it with women and shoes?",
+      "There is something wrong with you.",
+    ],
     episode: 101,
     subject: "Parker",
     timestamp: "52:48",
@@ -319,8 +367,11 @@ export const events: EventsTypes = [
   {
     type: "AgeOfThe",
     character: "Alec Hardison",
-    context:
-      "This is the score... THE SCORE. Age of the geek baby. Someone kiss him so I don't have to.",
+    context: "",
+    text: [
+      "This is the score... THE SCORE. Age of the geek baby.",
+      "Someone kiss him so I don't have to.",
+    ],
     episode: 101,
     subject: "Geek",
     timestamp: "05:33",
@@ -344,12 +395,16 @@ export const events: EventsTypes = [
   {
     type: "SophieTheActress",
     character: "Sophie Devereaux",
-    context:
-      "You understand this is a soap commercial, right? The dirt is a giant metaphor for sin.",
+    context: "",
+    text: [
+      "Yeah, you understand this is a soap commercial right?",
+      "Uh huh, when I thought about Peggy I came up with this idea that the dirt was really this giant metaphor for sin.",
+    ],
     episode: 102,
     subject: "Soap Commercial",
     timestamp: "03:33",
   },
+  // Episode 102 - The Homecoming Job
   {
     type: "RecurringMaguffin",
     character: "Alec Hardison",
@@ -369,8 +424,10 @@ export const events: EventsTypes = [
   {
     type: "AlecTheHacker",
     character: "Alec Hardison",
-    context:
+    context: "",
+    text: [
       "Photo and video forensics, backdoors into every bank in the world.",
+    ],
     episode: 102,
     subject: "Leverage Inc tech wall",
     timestamp: "07:20",
@@ -384,18 +441,21 @@ export const events: EventsTypes = [
     timestamp: "00:00",
   },
   {
-    type: "ParkerIsCrazy",
+    type: "ThrowHardissonFromTheRoom",
     character: "Alec Hardison",
-    context: "When were you going to test it? Big Baby...",
+    context: "",
+    text: ["When were you going to test it?", "Big Baby..."],
     episode: 102,
-    subject: "Throwing Hardison from a room",
+    subject: "Throwing Hardison from a roof",
     timestamp: "10:27",
   },
   {
     type: "DirtyEvenForUs",
     character: "Sophie Devereaux",
-    context:
+    context: "",
+    text: [
       "In these uncertain times buying a congressman is one of the best investments a corporation can make.",
+    ],
     episode: 102,
     subject: "Charles Dufort",
     timestamp: "12:14",
@@ -419,7 +479,8 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "LetsGoStealA",
-    context: "Oh but steal a law... She's going to be a legend baby...",
+    context: "",
+    text: ["Oh but steal a law... She's going to be a legend baby..."],
     timestamp: "29:26",
     character: "Alec Hardison",
     subject: "Parker",
@@ -427,15 +488,17 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "RomanticMoments",
-    context: "Go ahead girl, sexiness!",
+    context: "",
+    text: ["Go ahead girl, sexiness!"],
     timestamp: "25:40",
     character: "Alec Hardison",
     subject: "Parker",
   },
   {
-    episode: 102,
+    episode: 102, // TODO. WHEN does this happen?
     type: "WrathOfThe",
-    context: "I'm going to kill him.",
+    context: "",
+    text: ["I'm going to kill him."],
     timestamp: "00:00",
     character: "Eliot Spencer",
     subject: "Hardison",
@@ -460,8 +523,10 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "NotableQuotes",
-    context:
+    context: "",
+    text: [
       "I'm sorry its too far away for you to punch. I'm sure that really frustrates you.",
+    ],
     timestamp: "28:30",
     character: "Hardison",
     subject: "Disabling the webcam",
@@ -469,8 +534,10 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "ParkerIsCrazy",
-    context:
+    context: "",
+    text: [
       "What is it you have going on? you and Hardison? like a creepy contest?",
+    ],
     timestamp: "30:12",
     character: "Eliot Spencer",
     subject: "It's real... It feels real...",
@@ -478,8 +545,11 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "ParkerIsCrazy",
-    context:
-      "They changed the locks. Just do what you do? [Pulls out bomb]. Oh hell no.",
+    context: "",
+    text: [
+      "They changed the locks.",
+      "Just do what you do? [Pulls out bomb]. Oh hell no.",
+    ],
     timestamp: "33:55",
     character: "Hardison",
     subject: "Bomb",
@@ -495,8 +565,8 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "NotableQuotes",
-    context:
-      "[Nate] Anyone who wants to walk away may do so right now. [Elliot] One More",
+    context: "",
+    text: ["Anyone who wants to walk away may do so right now.", "One More"],
     timestamp: "28:30",
     character: "Nate Ford",
     subject: "",
@@ -549,7 +619,8 @@ export const events: EventsTypes = [
     context: "I just really don't like horses.",
     timestamp: "03:30",
     character: "Parker",
-    subject: "I once saw a horse kill a clown.",
+    subject: "",
+    text: ["I once saw a horse kill a clown."],
   },
   {
     episode: 103,
@@ -557,21 +628,25 @@ export const events: EventsTypes = [
     context: "",
     timestamp: "04:12",
     character: "Elliot Spencer",
-    subject: "After the fire-- It was a Massacre. A Massacre",
+    subject: "",
+    text: ["After the fire", "It was a Massacre. A Massacre"],
   },
   {
     timestamp: "11:00",
     character: "Nate Ford",
     episode: 103,
     context: "Horse Racing",
-    subject:
+    subject: "",
+    text: [
       "I'll tell everyone from Vegas to Houston That Allan Foss welches on his bets.",
+    ],
     type: "TheSting",
   },
   {
     episode: 103,
     type: "CharacterIntroduction",
-    context: "Why are you playing poker with my client Nate?",
+    context: "Race Track parking lot",
+    text: ["Why are you playing poker with my client Nate?"],
     timestamp: "11:30",
     character: "James Sterling",
     subject: "IYS Insurance",
@@ -579,8 +654,10 @@ export const events: EventsTypes = [
   {
     episode: 103,
     type: "PriorThefts",
-    context:
+    context: "Racetrack parking lot",
+    text: [
       "I haven't seen you since that little cooup in Sierra Leone. This is getting very interesting.",
+    ],
     timestamp: "13:08",
     character: "James Sterling",
     subject: "Sophie Devereaux",
@@ -589,8 +666,10 @@ export const events: EventsTypes = [
   {
     episode: 103,
     type: "BlastFromThePast",
-    context:
+    context: "Horse Stalls",
+    text: [
       "I thought you said you were fine with this. I thought you said you were coming back in three weeks.",
+    ],
     timestamp: "15:05",
     character: "Aimee Martin",
     subject: "Elliot Spencer",
@@ -598,8 +677,11 @@ export const events: EventsTypes = [
   {
     episode: 103,
     type: "Outmanuvered",
-    context:
+    context: "Race Track parking lot",
+    text: [
       "I just passed a black van. I can't be sure but I heard screaming inside. Yeah, and there was blood all on the back of the doors.",
+      "He's like an evil Nate!",
+    ],
     timestamp: "16:00",
     character: "James Sterling",
     subject: "Alec Hardison & Perker",
@@ -607,10 +689,12 @@ export const events: EventsTypes = [
   {
     episode: 103,
     type: "Flashback",
-    context: "Tell us what you did with the monkey! Where is the monkey?",
+    context:
+      "Elliot is being interrogated by vaguely East Asian characters off screen",
     timestamp: "19:29",
     character: "Elliot Spencer",
-    subject: "Aimee Martin",
+    text: ["Tell us what you did with the monkey! Where is the monkey?"],
+    subject: "",
   },
   {
     episode: 103,
@@ -632,8 +716,10 @@ export const events: EventsTypes = [
   {
     episode: 103,
     type: "AlecTheHacker",
-    context:
+    context: "",
+    text: [
       "A couple years ago all the cell phone companies went digital with their voice mail systems. Man it was like someone put a brand new swingset on my playground.",
+    ],
     timestamp: "23:00",
     character: "Alec Hardison",
     subject: "Kentucky Thunder's trainer",
@@ -641,8 +727,10 @@ export const events: EventsTypes = [
   {
     episode: 103,
     type: "ParkerIsCrazy",
-    context:
+    context: "Air ducts above horse teasing stall",
+    text: [
       "Looks like parker is going to have to crawl through the air duct again. God forbid anyone else would have to learn how to crawl on their stomach through a tiny space. Its not rocket science people.",
+    ],
     timestamp: "31:43",
     character: "Parker",
     subject: "Parker you realize we can still hear you",
@@ -658,41 +746,222 @@ export const events: EventsTypes = [
   {
     episode: 103,
     type: "Outmanuvered",
-    context: "Did you get some nice pictures?",
+    context: "Race Track restrooms",
+    text: ["Did you get some nice pictures?"],
     timestamp: "28:00",
     character: "James Sterling",
     subject: "Leverage Inc.",
   },
   {
-    episode: 103,
-    type: "LetsGoStealA",
-    context: "",
-    timestamp: "",
+    episode: 104,
+    type: "SophieTheActress",
+    context: "Leverage Inc. Office",
+    text: ["Yeah it was like a horror movie! Attention must be Paid!"],
+    timestamp: "01:22",
+    character: "Parker",
+    subject: "Willie Loman - Death of a Salesman",
+  },
+  {
+    episode: 104,
+    type: "Flashback",
+    context:
+      "Elliot has a gun placed to his head by vaguely East Asian characters off screen",
+    timestamp: "01:49",
+    character: "Elliot Spencer",
+    subject:
+      "That was the worse night of my life... Come on man you've been in worse situations.",
+  },
+  {
+    episode: 104,
+    type: "NateDoesnLikeHospitals",
+    context: "Father Paul's hospital room",
+    text: ["I know hospitals are tough for you."],
+    timestamp: "03:40",
+    character: "Father Paul",
+    subject: "Nate Ford",
+  },
+  {
+    episode: 104,
+    type: "Flashback",
+    context: "Child's baptism with Nate and Father Paul",
+    timestamp: "05:33",
     character: "Nate Ford",
     subject: "",
   },
   {
-    episode: 103,
+    episode: 104,
+    type: "ElliotTheHitter",
+    text: [
+      "This is why I don't like guns. They have a specific range of effocacy. Most guys make one mistake, they get too close.",
+    ],
+    context: "Meeting gang members under a bridge.",
+    timestamp: "06:40",
+    character: "Elliot Spencer",
+    subject: "",
+  },
+  {
+    episode: 104,
+    type: "DirtyEvenForUs",
+    text: [
+      "Who rolled the priest?",
+      "We didn't beat up no priests. We're not monsters.",
+    ],
+    context: "Meeting gang members under a bridge.",
+    timestamp: "07:00",
+    character: "Elliot Spencer",
+    subject: "",
+  },
+  {
+    episode: 104,
+    type: "AlecTheHacker",
+    context: "",
+    text: [
+      "Can you do something with that?",
+      "Seven digits? I can find you on Mars",
+    ],
+    timestamp: "07:50",
+    character: "Alec Hardison",
+    subject: "",
+  },
+  {
+    episode: 104,
+    type: "DirtyEvenForUs",
+    text: ["This guy beat up a priest? We're not going easy on him..."],
+    context: "Leverage Inc.",
+    timestamp: "09:15",
+    character: "Nate Ford",
+    subject: "Andrew Grant",
+  },
+  {
+    episode: 104,
+    type: "TheGrifter",
+    context: "",
+    timestamp: "09:25",
+    character: "Sophie Devereaux",
+    subject: "Christy Connely - Reporter with the Ledger",
+  },
+  {
+    episode: 104,
+    type: "ParkerIsCrazy",
+    context: "The mark is trapped in an elevator...",
+    text: [
+      "Xanax... its for my nervers",
+      "* Elsewhere *",
+      "Actually caffeine. With a dash of dextroamphetamine.",
+      "You gave him speed?",
+    ],
+    timestamp: "12:00",
+    character: "Nate Ford",
+    subject: "Andrew Grant",
+  },
+  {
+    episode: 104,
     type: "LetsGoStealA",
     context: "",
+    text: [
+      "We're going to need a miracle to save this church...",
+      "So, let's go steal ourselves a miracle.",
+    ],
     timestamp: "",
+    character: "Nate Ford",
+    subject: "Miracle",
+  },
+  {
+    episode: 104,
+    type: "NewJobUnlocked",
+    text: [
+      "I went to school with father Paul. To seminary school.",
+      "So you dropped out of priest school to become an insurance cop? And now you're here, the leader of a band of thieves? Nice",
+    ],
+    context: "Leverage Inc.",
+    timestamp: "16:40",
     character: "Nate Ford",
     subject: "",
   },
   {
-    episode: 103,
-    type: "LetsGoStealA",
-    context: "",
-    timestamp: "",
+    episode: 104,
+    type: "OhHellNo",
+    context: "Leverage Inc",
+    text: [
+      "We just need you to figure out how to fake a miracle",
+      "We all going to hell...",
+    ],
+    timestamp: "17:50",
     character: "Nate Ford",
+    subject: "Miracles",
+  },
+  {
+    episode: 104,
+    type: "RomanticMoments",
+    context: "",
+    text: ["You never cheated... that's what made it fun.", "What about now?"],
+    timestamp: "",
+    character: "Sophie Devereaux",
     subject: "",
   },
   {
-    episode: 103,
-    type: "LetsGoStealA",
-    context: "",
-    timestamp: "",
-    character: "Nate Ford",
-    subject: "",
+    episode: 104,
+    type: "NotableQuotes",
+    context: "She's from New Zealand...",
+    text: ["Are you even British?"],
+    timestamp: "40:10",
+    character: "Andrew Grant",
+    subject: "Sophie Devereaux",
   },
+  // {
+  //   episode: 104,
+  //   type: "",
+  //   context: "",
+  //   timestamp: "",
+  //   character: "Nate Ford",
+  //   subject: "",
+  // },
+  // {
+  //   episode: 104,
+  //   type: "",
+  //   context: "",
+  //   timestamp: "",
+  //   character: "Nate Ford",
+  //   subject: "",
+  // },
+  // {
+  //   episode: 104,
+  //   type: "",
+  //   context: "",
+  //   timestamp: "",
+  //   character: "Nate Ford",
+  //   subject: "",
+  // },
+  // {
+  //   episode: 104,
+  //   type: "",
+  //   context: "",
+  //   timestamp: "",
+  //   character: "Nate Ford",
+  //   subject: "",
+  // },
+  // {
+  //   episode: 104,
+  //   type: "",
+  //   context: "",
+  //   timestamp: "",
+  //   character: "Nate Ford",
+  //   subject: "",
+  // },
+  // {
+  //   episode: 104,
+  //   type: "",
+  //   context: "",
+  //   timestamp: "",
+  //   character: "Nate Ford",
+  //   subject: "",
+  // },
+  // {
+  //   episode: 104,
+  //   type: "",
+  //   context: "",
+  //   timestamp: "",
+  //   character: "Nate Ford",
+  //   subject: "",
+  // },
 ];

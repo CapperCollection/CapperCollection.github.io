@@ -24,9 +24,11 @@ type EventTypeType =
   | "OhHellNo"
   | "AgeOfThe"
   | "AlecTheHacker"
+  | "ThrowHardissonFromTheRoom"
   /* Nate Moments */
   | "NateTheMasterMind"
   | "NateTheDrunk"
+  | "NateDoesnLikeHospitals"
   /* Elliot Moments" */
   | "ElliotTheChef"
   | "ElliotTheHitter"
@@ -53,7 +55,16 @@ type EventType = {
   timestamp: string;
   character: MainCharactersType | string;
   subject: string;
+  text?: string[];
   type: EventTypeType;
 };
 
 export type EventsTypes = EventType[];
+
+export interface EventsProviderProps {
+  children: React.ReactNode;
+}
+
+export type EventsContextType = {
+  events: EventsTypes;
+};

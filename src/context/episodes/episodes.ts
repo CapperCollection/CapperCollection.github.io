@@ -1,6 +1,6 @@
 import { EpisodesType } from "./types";
 
-export const Episodes: EpisodesType = [
+export const episodes: EpisodesType = [
   {
     episode: 101,
     title: "The Nigerian Job",
@@ -73,5 +73,25 @@ export const Episodes: EpisodesType = [
     ],
     motive: ["Insurance Fraud"],
     exposedTo: ["Insurance", "Colleagues"],
+  },
+  {
+    episode: 104,
+    title: "The Miracle Job",
+    date: "December 23, 2008",
+    locations: ["Los Angeles"],
+    antagonist: [
+      {
+        name: "Andrew Grant",
+        occupation: "Real Estate Developer",
+      },
+    ],
+    victims: [
+      {
+        name: "Father Paul",
+        occupation: "Priest",
+      },
+    ],
+    motive: ["Corporate Greed"],
+    exposedTo: ["Media", "Police"],
   },
 ];
