@@ -9,7 +9,6 @@ function App() {
       const scrollToTop = Boolean(window.scrollY < window.innerHeight / 2);
       window.scroll({
         top: scrollToTop ? 0 : window.innerHeight * 2,
-        left: 0,
         behavior: "smooth",
       });
     };

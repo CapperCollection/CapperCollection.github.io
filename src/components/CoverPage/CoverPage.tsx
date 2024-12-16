@@ -38,7 +38,7 @@ const H1Right = styled.h1`
 export const CoverPage = () => {
   return (
     <CoverPageWrapper id="cover">
-      <H1Left className="slide-in-left">The Caper</H1Left>
+      <H1Left className="slide-in-left">Capper</H1Left>
       <H1Right className="slide-in-right">Collection</H1Right>
     </CoverPageWrapper>
   );

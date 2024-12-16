@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Episodes } from "../Episodes";
 
 const ContentWrapper = styled("div")`
   display: flex;
@@ -6,13 +7,13 @@ const ContentWrapper = styled("div")`
   align-items: center;
   padding: 20px;
   height: 100vh;
+  position: relative;
 `;
 
 export const Content = () => {
   return (
     <ContentWrapper id="content">
-      <h1>Episodes</h1>
-      <p>Click on an episode to learn more</p>
+      <Episodes />
     </ContentWrapper>
   );
 };
