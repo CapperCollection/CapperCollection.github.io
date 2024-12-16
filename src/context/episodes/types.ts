@@ -19,8 +19,11 @@ type CharacterType = {
   occupation: string;
 };
 
-type EpisodeType = {
+export type EpisodeType = {
+  id: number;
   episode: number;
+  description: string;
+  turn: string;
   title: string;
   date: string;
   locations: string[];
@@ -28,6 +31,7 @@ type EpisodeType = {
   motive: MotiveType[];
   exposedTo: ExposeType[];
   victims: CharacterType[];
+  link: string;
 };
 
 export type EpisodesType = EpisodeType[];

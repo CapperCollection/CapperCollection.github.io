@@ -2,7 +2,12 @@ import { EpisodesType } from "./types";
 
 export const episodes: EpisodesType = [
   {
+    id: 0,
     episode: 101,
+    description:
+      "Following the theft of corporate IP, an insurance investigator is tasked with recovering the stolen data with the help of a team of thieves.",
+    turn: "The Nigerians are actually the good guys.",
+    link: "https://youtu.be/YM6-fBB7yQY?si=CC9A1LwVBTDNguaL",
     title: "The Nigerian Job",
     date: "December 7, 2008	",
     locations: ["Chicago"],
@@ -14,7 +19,7 @@ export const episodes: EpisodesType = [
     ],
     victims: [
       {
-        name: "",
+        name: "Steve Pierson",
         occupation: "CEO of Pierson Aviation",
       },
     ],
@@ -22,7 +27,12 @@ export const episodes: EpisodesType = [
     exposedTo: ["FBI", "Company"],
   },
   {
+    id: 1,
     episode: 102,
+    description:
+      "A wounded army corporal charges Leverage Inc with the task of exposing corrupt military contractors.",
+    turn: "The exploded shipping container was a decoy used to bring the real criminals to the cash together.",
+    link: "https://youtu.be/LMX2-vsoGSo?si=hGMJX_wMZWmZ7Ga9",
     title: "The Homecoming Job",
     date: "December 9, 2008",
     locations: ["Los Angeles"],
@@ -51,7 +61,12 @@ export const episodes: EpisodesType = [
     exposedTo: ["Media"],
   },
   {
+    id: 2,
     episode: 103,
+    description:
+      "After a paddock is set a blaze, the team is dispatched to expose the culprit and make things right.",
+    turn: "The house the antagonist was trying to buy was a decoy to get him to confess to commit insurance fraud.",
+    link: "https://youtu.be/tFhJ8tGK1Kc?si=3OUsqFFrs5QuH6Fx",
     title: "The Two-Horse Job",
     date: "December 16, 2008",
     locations: ["Louisville"],
@@ -75,7 +90,12 @@ export const episodes: EpisodesType = [
     exposedTo: ["Insurance", "Colleagues"],
   },
   {
+    id: 3,
     episode: 104,
+    description:
+      "A friend of Nate is attacked on the street and the team is tasked with exposing the corrupt real-estate deal that led to the attack.",
+    turn: "By doing the right thing Father Paul implicated Grant as responsible for the fake miracle.",
+    link: "https://youtu.be/ivomuNvW5A8?si=fTJ4r74ycQujat1v",
     title: "The Miracle Job",
     date: "December 23, 2008",
     locations: ["Los Angeles"],

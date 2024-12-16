@@ -18,7 +18,24 @@ export const useEpisodes = () => {
 export const EpisodesProvider: React.FC<EpisodesProviderProps> = ({
   children,
 }: EpisodesProviderProps) => {
-  const exposedState = { episodes: episodes };
+  const [filters, setFilters] = React.useState<Set<string>>(new Set());
+  const exposedState = React.useMemo(() => {
+    return {
+      filters,
+      episodes: episodes,
+      updateEpisodeFilters: (filter: string) => {
+        setFilters((prev) => {
+          const newFilters = new Set(prev);
+          if (newFilters.has(filter)) {
+            newFilters.delete(filter);
+          } else {
+            newFilters.add(filter);
+          }
+          return newFilters;
+        });
+      },
+    };
+  }, [filters, setFilters]);
 
   return (
     <EpisodesContext.Provider value={exposedState}>
