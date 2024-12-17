@@ -16,7 +16,25 @@ export const useEvents = () => {
 };
 
 export const EventsProvider: React.FC<EventsProviderProps> = ({ children }) => {
-  const exposedState = { events: events };
+  const [filters, setFilters] = React.useState<Set<string>>(new Set());
+
+  const exposedState = React.useMemo(() => {
+    return {
+      eventFilters: filters,
+      events: events,
+      updateEventFilters: (filter: string) => {
+        setFilters((prev) => {
+          const newFilters = new Set(prev);
+          if (newFilters.has(filter)) {
+            newFilters.delete(filter);
+          } else {
+            newFilters.add(filter);
+          }
+          return newFilters;
+        });
+      },
+    };
+  }, [filters, setFilters]);
 
   return (
     <EventsContext.Provider value={exposedState}>

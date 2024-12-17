@@ -42,4 +42,6 @@ export interface EpisodesProviderProps {
 
 export type EpisodesContextProps = {
   episodes: EpisodesType;
+  updateEpisodeFilters: (filter: string) => void;
+  episodeFilters: Set<string>;
 };

@@ -21,7 +21,7 @@ export const EpisodesProvider: React.FC<EpisodesProviderProps> = ({
   const [filters, setFilters] = React.useState<Set<string>>(new Set());
   const exposedState = React.useMemo(() => {
     return {
-      filters,
+      episodeFilters: filters,
       episodes: episodes,
       updateEpisodeFilters: (filter: string) => {
         setFilters((prev) => {

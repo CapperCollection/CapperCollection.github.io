@@ -24,11 +24,11 @@ type EventTypeType =
   | "OhHellNo"
   | "AgeOfThe"
   | "AlecTheHacker"
-  | "ThrowHardissonFromTheRoom"
+  | "ThrowHardissonFromTheX"
   /* Nate Moments */
-  | "NateTheMasterMind"
+  | "TheMastermind"
   | "NateTheDrunk"
-  | "NateDoesnLikeHospitals"
+  | "NateDoesntLikeHospitals"
   /* Elliot Moments" */
   | "ElliotTheChef"
   | "ElliotTheHitter"
@@ -49,7 +49,7 @@ type MainCharactersType =
   | "Hardison"
   | "Elliot Spencer";
 
-type EventType = {
+export type EventType = {
   episode: number;
   context: string;
   timestamp: string;
@@ -67,4 +67,6 @@ export interface EventsProviderProps {
 
 export type EventsContextType = {
   events: EventsTypes;
+  eventFilters: Set<string>;
+  updateEventFilters: (filter: string) => void;
 };
