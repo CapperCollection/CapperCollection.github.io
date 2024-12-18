@@ -71,9 +71,8 @@ export const Event = ({ event, index }: EventInterface) => {
     >
       <Element>
         <h4>
-          {episode} - {type}
+          {type} - {episode} - {timestamp}
         </h4>
-        <h5>Timestamp: {timestamp}</h5>
         {text?.length && (
           <Quote size="sm" hasIcon>
             {text.map((line) => (
@@ -83,9 +82,9 @@ export const Event = ({ event, index }: EventInterface) => {
         )}
       </Element>
       <div className="card-footer">
-        <h6>Character: {character}</h6>
-        <h6>Subject: {subject}</h6>
-        <h6>Context: {context}</h6>
+        {character && <h6>Character: {character}</h6>}
+        {subject && <h6>Subject: {subject}</h6>}
+        {context && <h6>Context: {context}</h6>}
       </div>
     </Element>
   );

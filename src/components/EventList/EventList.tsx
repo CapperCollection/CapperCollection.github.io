@@ -25,7 +25,6 @@ const EVENT_TYPES = [
   { value: "RomanticMoments", name: "Romantic Moments" },
   { value: "SomeoneIsAngry", name: "Someone is Angry" },
   { value: "TheGrifter", name: "The Grifter" },
-  { value: "WrathOfThe", name: "Wrath of ..." },
   { value: "Outmanuvered", name: "Outmanuvered" },
   { value: "TastefulCutAway", name: "Tasteful Cutaway" },
   /* Hardison Moments */
@@ -34,7 +33,7 @@ const EVENT_TYPES = [
   { value: "AlecTheHacker", name: "Alec the Hacker" },
   { value: "ThrowHardissonFromTheX", name: "Throw Hardison from the ..." },
   /* Nate Moments */
-  { value: "TheMastermind", name: "the Mastermind" },
+  { value: "TheMastermind", name: "The Mastermind" },
   { value: "NateTheDrunk", name: "Nate the Drunk" },
   { value: "NateDoesntLikeHospitals", name: "Nate Doesnt Like Hospitals" },
   /* Elliot Moments" */
@@ -58,11 +57,16 @@ export const EventList = () => {
   };
 
   return (
-    <Dropdown id="type-dropdown">
+    <Dropdown id="type-dropdown" autoClose>
       <DropdownButton hasArrow>Open Menu</DropdownButton>
-      <DropdownBody sx="max-height: 75vw; overflow: scroll;">
+      <DropdownBody sx="max-height: 75vh; overflow: scroll;">
         {EVENT_TYPES.map(({ value, name }) => (
-          <Checkbox key={value} value={value} onChange={onClick}>
+          <Checkbox
+            key={value}
+            value={value}
+            onChange={onClick}
+            sx="padding: 0.5rem;"
+          >
             {name}
           </Checkbox>
         ))}

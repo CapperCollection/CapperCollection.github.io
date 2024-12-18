@@ -17,7 +17,6 @@ type EventTypeType =
   | "RomanticMoments"
   | "SomeoneIsAngry"
   | "TheGrifter"
-  | "WrathOfThe"
   | "Outmanuvered"
   | "TastefulCutAway"
   /* Hardison Moments */

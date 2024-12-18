@@ -285,7 +285,7 @@ export const events: EventsTypes = [
     timestamp: "23:02",
   },
   {
-    type: "WrathOfThe",
+    type: "SomeoneIsAngry",
     character: "Nate Ford",
     context: "Hardison's place",
     text: ["What's in it for you?", "He used my son..."],
@@ -521,7 +521,7 @@ export const events: EventsTypes = [
   },
   {
     episode: 102, // TODO. WHEN does this happen?
-    type: "WrathOfThe",
+    type: "SomeoneIsAngry",
     context: "",
     text: ["I'm going to kill him."],
     timestamp: "00:00",
@@ -649,7 +649,7 @@ export const events: EventsTypes = [
   },
   {
     episode: 103,
-    type: "WrathOfThe",
+    type: "SomeoneIsAngry",
     context: "",
     timestamp: "04:12",
     character: "Elliot Spencer",
