@@ -3,14 +3,13 @@ import { useEvents } from "../../context";
 import { Event } from "./Event";
 
 const EventWrapper = styled("div")`
-  display: flex;
-  flex-direction: column;
   align-items: flex-end;
+  flex-direction: column;
   justify-content: space-between;
+
   max-width: 100vw;
-  overflow: scroll;
-  padding: 1.5rem;
-  margin-bottom: 130px;
+  min-width: 100vw;
+  padding: 3rem;
 `;
 
 export const Events = () => {

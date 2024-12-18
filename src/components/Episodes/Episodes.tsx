@@ -3,7 +3,7 @@ import { useEpisodes } from "../../context/episodes";
 import { Episode } from "./Episode";
 
 const EpisodesWrapper = styled("div")`
-  position: absolute;
+  position: sticky;
   bottom: 0;
   
   display: flex;
@@ -12,7 +12,8 @@ const EpisodesWrapper = styled("div")`
   justify-content: space-between;
   
   max-width: 100vw;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   padding: 20px;
 `;
 

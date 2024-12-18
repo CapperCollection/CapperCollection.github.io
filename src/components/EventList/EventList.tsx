@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Checkbox,
   Dropdown,
@@ -5,6 +6,7 @@ import {
   DropdownButton,
 } from "react-flatifycss";
 import { useEvents } from "../../context";
+import styled from "styled-components";
 
 const EVENT_TYPES = [
   { value: "TitleDrop", name: "Title Drop" },
@@ -50,6 +52,14 @@ const EVENT_TYPES = [
   { value: "TheSting", name: "The Sting" },
 ];
 
+const DropdownWrapper = styled(Dropdown)`
+  position: sticky;
+  top: 0;
+
+  display: inline-block;
+  z-index: 1;
+`;
+
 export const EventList = () => {
   const { updateEventFilters } = useEvents();
   const onClick = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -57,8 +67,8 @@ export const EventList = () => {
   };
 
   return (
-    <Dropdown id="type-dropdown" autoClose>
-      <DropdownButton hasArrow>Open Menu</DropdownButton>
+    <DropdownWrapper id="type-dropdown" autoClose>
+      <DropdownButton hasArrow>Event Types</DropdownButton>
       <DropdownBody sx="max-height: 75vh; overflow: scroll;">
         {EVENT_TYPES.map(({ value, name }) => (
           <Checkbox
@@ -71,6 +81,6 @@ export const EventList = () => {
           </Checkbox>
         ))}
       </DropdownBody>
-    </Dropdown>
+    </DropdownWrapper>
   );
 };

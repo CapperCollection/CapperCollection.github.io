@@ -6,9 +6,10 @@ import { Content, CoverPage } from "./components";
 function App() {
   React.useEffect(() => {
     const smoothScroll = () => {
+      if (window.scrollY >= window.innerHeight) return;
       const scrollToTop = Boolean(window.scrollY < window.innerHeight / 2);
       window.scroll({
-        top: scrollToTop ? 0 : window.innerHeight * 2,
+        top: scrollToTop ? 0 : window.innerHeight,
         behavior: "smooth",
       });
     };

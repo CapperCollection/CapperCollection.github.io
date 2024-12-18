@@ -13,6 +13,7 @@
   },
   "homepage": "https://penkar.github.io/leverage-app/",
   "dependencies": {
+    "@types/lodash": "^4.17.13",
     "classnames": "^2.5.1",
     "flatifycss": "^2.0.0",
     "gh-pages": "^6.2.0",
