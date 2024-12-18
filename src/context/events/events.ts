@@ -604,10 +604,10 @@ export const events: EventsTypes = [
     character: "Sophie Devereaux",
     subject: "Lilly McCredy of Executive Orders",
   },
-  // Episode 103 - The Two-Horse Job
+  // Episode 106 - The Two-Horse Job
 
   {
-    episode: 103,
+    episode: 106,
     type: "TheGrifter",
     context: "Horse Trainer",
     timestamp: "08:12",
@@ -615,7 +615,7 @@ export const events: EventsTypes = [
     subject: "Brad Macky",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "TheGrifter",
     context: "The Poker Game",
     timestamp: "08:00",
@@ -623,7 +623,7 @@ export const events: EventsTypes = [
     subject: "Sheikh Khalid of Dubai",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "TheGrifter",
     context: "Horse Owner",
     timestamp: "08:27",
@@ -631,7 +631,7 @@ export const events: EventsTypes = [
     subject: "Bob Gibson",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "TheGrifter",
     context: "",
     timestamp: "06:15",
@@ -639,7 +639,7 @@ export const events: EventsTypes = [
     subject: "Catherine Beth Lovery",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "ParkerIsCrazy",
     context: "I just really don't like horses.",
     timestamp: "03:30",
@@ -648,7 +648,7 @@ export const events: EventsTypes = [
     text: ["I once saw a horse kill a clown."],
   },
   {
-    episode: 103,
+    episode: 106,
     type: "SomeoneIsAngry",
     context: "",
     timestamp: "04:12",
@@ -659,7 +659,7 @@ export const events: EventsTypes = [
   {
     timestamp: "11:00",
     character: "Nate Ford",
-    episode: 103,
+    episode: 106,
     context: "Horse Racing",
     subject: "",
     text: [
@@ -668,7 +668,7 @@ export const events: EventsTypes = [
     type: "TheSting",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "CharacterIntroduction",
     context: "Race Track parking lot",
     text: ["Why are you playing poker with my client Nate?"],
@@ -677,7 +677,7 @@ export const events: EventsTypes = [
     subject: "IYS Insurance",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "PriorThefts",
     context: "Racetrack parking lot",
     text: [
@@ -689,7 +689,7 @@ export const events: EventsTypes = [
   },
 
   {
-    episode: 103,
+    episode: 106,
     type: "BlastFromThePast",
     context: "Horse Stalls",
     text: [
@@ -700,7 +700,7 @@ export const events: EventsTypes = [
     subject: "Elliot Spencer",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "Outmanuvered",
     context: "Race Track parking lot",
     text: [
@@ -714,7 +714,7 @@ export const events: EventsTypes = [
     subject: "Alec Hardison & Perker",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "Flashback",
     context:
       "Elliot is being interrogated by vaguely East Asian characters off screen",
@@ -724,7 +724,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "ConName",
     context: "With horses it's all about bloodlines.",
     timestamp: "20:49",
@@ -732,7 +732,7 @@ export const events: EventsTypes = [
     subject: "The Lost Heir",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "LetsGoStealA",
     context:
       "We are going to sell this guy the greatest horse that ever lived...",
@@ -741,7 +741,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "AlecTheHacker",
     context: "",
     text: [
@@ -753,7 +753,7 @@ export const events: EventsTypes = [
     subject: "Kentucky Thunder's trainer",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "ParkerIsCrazy",
     context: "Air ducts above horse teasing stall",
     text: [
@@ -765,7 +765,7 @@ export const events: EventsTypes = [
     subject: "Parker you realize we can still hear you",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "TastefulCutAway",
     context: "Horse stall",
     timestamp: "19:45",
@@ -773,7 +773,7 @@ export const events: EventsTypes = [
     subject: "Aimee Martin",
   },
   {
-    episode: 103,
+    episode: 106,
     type: "Outmanuvered",
     context: "Race Track restrooms",
     text: ["Did you get some nice pictures?"],
@@ -782,7 +782,7 @@ export const events: EventsTypes = [
     subject: "Leverage Inc.",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "SophieTheActress",
     context: "Leverage Inc. Office",
     text: ["Yeah it was like a horror movie! Attention must be Paid!"],
@@ -791,7 +791,7 @@ export const events: EventsTypes = [
     subject: "Willie Loman - Death of a Salesman",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "Flashback",
     context:
       "Elliot has a gun placed to his head by vaguely East Asian characters off screen",
@@ -801,7 +801,7 @@ export const events: EventsTypes = [
       "That was the worse night of my life... Come on man you've been in worse situations.",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "NateDoesntLikeHospitals",
     context: "Father Paul's hospital room",
     text: ["I know hospitals are tough for you."],
@@ -810,7 +810,7 @@ export const events: EventsTypes = [
     subject: "Nate Ford",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "Flashback",
     context: "Child's baptism with Nate and Father Paul",
     timestamp: "05:33",
@@ -818,7 +818,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "ElliotTheHitter",
     text: [
       "This is why I don't like guns. They have a specific range of effocacy. Most guys make one mistake, they get too close.",
@@ -829,7 +829,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "DirtyEvenForUs",
     text: [
       "Who rolled the priest?",
@@ -841,7 +841,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "AlecTheHacker",
     context: "",
     text: [
@@ -853,7 +853,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "DirtyEvenForUs",
     text: ["This guy beat up a priest? We're not going easy on him..."],
     context: "Leverage Inc.",
@@ -862,7 +862,7 @@ export const events: EventsTypes = [
     subject: "Andrew Grant",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "TheGrifter",
     context: "",
     timestamp: "09:25",
@@ -870,7 +870,7 @@ export const events: EventsTypes = [
     subject: "Christy Connely - Reporter with the Ledger",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "ParkerIsCrazy",
     context: "The mark is trapped in an elevator...",
     text: [
@@ -884,7 +884,7 @@ export const events: EventsTypes = [
     subject: "Andrew Grant",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "LetsGoStealA",
     context: "",
     text: [
@@ -896,7 +896,7 @@ export const events: EventsTypes = [
     subject: "Miracle",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "NewJobUnlocked",
     text: [
       "I went to school with father Paul. To seminary school.",
@@ -908,7 +908,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "OhHellNo",
     context: "Leverage Inc",
     text: [
@@ -920,7 +920,7 @@ export const events: EventsTypes = [
     subject: "Miracles",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "RomanticMoments",
     context: "",
     text: ["You never cheated... that's what made it fun.", "What about now?"],
@@ -929,7 +929,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    episode: 107,
     type: "NotableQuotes",
     context: "She's from New Zealand...",
     text: ["Are you even British?"],
@@ -938,7 +938,7 @@ export const events: EventsTypes = [
     subject: "Sophie Devereaux",
   },
   // {
-  //   episode: 104,
+  //   episode: 107,
   //   type: "",
   //   context: "",
   //   timestamp: "",
@@ -946,7 +946,7 @@ export const events: EventsTypes = [
   //   subject: "",
   // },
   // {
-  //   episode: 104,
+  //   episode: 107,
   //   type: "",
   //   context: "",
   //   timestamp: "",
@@ -954,7 +954,7 @@ export const events: EventsTypes = [
   //   subject: "",
   // },
   // {
-  //   episode: 104,
+  //   episode: 107,
   //   type: "",
   //   context: "",
   //   timestamp: "",
@@ -962,7 +962,7 @@ export const events: EventsTypes = [
   //   subject: "",
   // },
   // {
-  //   episode: 104,
+  //   episode: 107,
   //   type: "",
   //   context: "",
   //   timestamp: "",
@@ -970,7 +970,7 @@ export const events: EventsTypes = [
   //   subject: "",
   // },
   // {
-  //   episode: 104,
+  //   episode: 107,
   //   type: "",
   //   context: "",
   //   timestamp: "",
@@ -978,7 +978,7 @@ export const events: EventsTypes = [
   //   subject: "",
   // },
   // {
-  //   episode: 104,
+  //   episode: 107,
   //   type: "",
   //   context: "",
   //   timestamp: "",
@@ -986,7 +986,7 @@ export const events: EventsTypes = [
   //   subject: "",
   // },
   // {
-  //   episode: 104,
+  //   episode: 107,
   //   type: "",
   //   context: "",
   //   timestamp: "",

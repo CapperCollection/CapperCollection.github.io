@@ -62,7 +62,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 2,
-    episode: 103,
+    episode: 106,
     description:
       "After a paddock is set a blaze, the team is dispatched to expose the culprit and make things right.",
     turn: "The house the antagonist was trying to buy was a decoy to get him to confess to commit insurance fraud.",
@@ -91,7 +91,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 3,
-    episode: 104,
+    episode: 107,
     description:
       "A friend of Nate is attacked on the street and the team is tasked with exposing the corrupt real-estate deal that led to the attack.",
     turn: "By doing the right thing Father Paul implicated Grant as responsible for the fake miracle.",
