@@ -1,44 +1,49 @@
 type EventTypeType =
   | "TitleDrop"
   | "AlternatePlans"
-  | "LetsGoStealA"
+  | "BoomGoesTheDynamite"
   | "ConName"
+  | "LetsGoStealA"
   /* Character Development */
+  | "BlastFromThePast"
   | "CharacterIntroduction"
   | "Flashback"
-  | "BlastFromThePast"
   | "NewJobUnlocked"
   | "PriorThefts"
   /* Story Elements */
   | "BetrayalMostFoul"
   | "DirtyEvenForUs"
   | "NotableQuotes"
+  | "Outmanuvered"
   | "RecurringMaguffin"
   | "RomanticMoments"
   | "SomeoneIsAngry"
-  | "TheGrifter"
-  | "Outmanuvered"
   | "TastefulCutAway"
+  | "TheGrifter"
+  /* Thief Moments */
+  | "TheLift"
   /* Hardison Moments */
-  | "OhHellNo"
   | "AgeOfThe"
   | "AlecTheHacker"
+  | "OhHellNo"
   | "ThrowHardissonFromTheX"
   /* Nate Moments */
-  | "TheMastermind"
-  | "NateTheDrunk"
   | "NateDoesntLikeHospitals"
+  | "NateTheDrunk"
+  | "TheMastermind"
   /* Elliot Moments" */
   | "ElliotTheChef"
   | "ElliotTheHitter"
+  | "IDontLikeGuns"
   | "ItsAVeryDistinctive"
   /* Sophie Moments */
-  | "SophieTheActress"
   | "SophieTheActingCoach"
+  | "SophieTheActress"
   /* Parker Moments */
+  | "ComeFlyWithMe"
   | "ParkerIsCrazy"
   | "ParkerTheThief"
-  /* References to the String */
+  /* References to Pop Culture */
   | "TheSting";
 
 type MainCharactersType =

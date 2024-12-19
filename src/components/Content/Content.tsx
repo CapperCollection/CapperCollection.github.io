@@ -8,6 +8,7 @@ const ContentWrapper = styled("div")`
   flex-direction: column;
   align-items: center;
   position: relative;
+  min-height: 100vh;
 `;
 
 export const Content = () => {

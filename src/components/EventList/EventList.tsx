@@ -13,6 +13,7 @@ const EVENT_TYPES = [
   { value: "AlternatePlans", name: "Alternate Plan Names" },
   { value: "LetsGoStealA", name: "Let's go steal a..." },
   { value: "ConName", name: "Con Names" },
+  { value: "BoomGoesTheDynamite", name: "Boom Goes the Dynamite" },
   /* Character Development */
   { value: "CharacterIntroduction", name: "Recurring character introduction" },
   { value: "Flashback", name: "Flashbacks" },
@@ -42,10 +43,12 @@ const EVENT_TYPES = [
   { value: "ElliotTheChef", name: "Elliot the Chef" },
   { value: "ElliotTheHitter", name: "Elliot the Hitter" },
   { value: "ItsAVeryDistinctive", name: "Its a very Distinctive ..." },
+  { value: "IDontLikeGuns", name: "I Don't Like Guns" },
   /* Sophie Moments */
   { value: "SophieTheActress", name: "Sophie the Actress" },
   { value: "SophieTheActingCoach", name: "Sophie the Acting Coach" },
   /* Parker Moments */
+  { value: "ComeFlyWithMe", name: "Come Fly with Me" },
   { value: "ParkerIsCrazy", name: "Parker is Crazy" },
   { value: "ParkerTheThief", name: "Parker the Thief" },
   /* References to the String */

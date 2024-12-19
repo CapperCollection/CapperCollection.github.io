@@ -6,7 +6,7 @@ export const episodes: EpisodesType = [
     episode: 101,
     description:
       "Following the theft of corporate IP, an insurance investigator is tasked with recovering the stolen data with the help of a team of thieves.",
-    turn: "The Nigerians are actually the good guys.",
+    turn: "The Nigerians were not paying a bribe. Dubenich paid them a bribe from within his own offices.",
     link: "https://youtu.be/YM6-fBB7yQY?si=CC9A1LwVBTDNguaL",
     title: "The Nigerian Job",
     date: "December 7, 2008	",

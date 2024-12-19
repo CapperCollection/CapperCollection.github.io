@@ -1,7 +1,6 @@
 import { EventsTypes } from "./types";
 
 export const events: EventsTypes = [
-  // Episode 101 - The Nigerian Job
   {
     type: "CharacterIntroduction",
     character: "Nate Ford",
@@ -48,7 +47,6 @@ export const events: EventsTypes = [
     character: "Hardison",
     subject: "Ear piece",
   },
-
   {
     episode: 101,
     character: "Alec Hardison",
@@ -72,8 +70,8 @@ export const events: EventsTypes = [
     character: "Elilot Spencer",
     context:
       "Elliot clears a room full of men with guns to retrieve a baseball card...",
-    subject:
-      "Belgrade Serbia 3 years ago. I'm here to collect the merchandise?",
+    subject: "Belgrade Serbia 3 years ago.",
+    text: ["I'm here to collect the merchandise.", "*Crickets Chirping*"],
     timestamp: "04:40",
     type: "Flashback",
   },
@@ -131,7 +129,7 @@ export const events: EventsTypes = [
     timestamp: "07:00",
   },
   {
-    type: "ParkerIsCrazy",
+    type: "ComeFlyWithMe",
     character: "Parker",
     context: "Pierson Aviation Building",
     text: [
@@ -153,7 +151,11 @@ export const events: EventsTypes = [
     type: "TheMastermind",
     character: "Parker",
     context: "Pierson Aviation Building",
-    text: ["Count the haircuts... I would have missed that."],
+    text: [
+      "I can't even tell how many guys are in the room. How can you tell who's who?",
+      "Haircuts Parker, count the haircuts",
+      "I would have missed that.",
+    ],
     episode: 101,
     subject: "Nate Ford",
     timestamp: "09:23",
@@ -183,7 +185,12 @@ export const events: EventsTypes = [
     type: "TheMastermind",
     character: "Nate Ford",
     context: "Pierson Aviation Building",
-    text: ["I'm the one with a plan."],
+    text: [
+      "Everyman for himself.",
+      "Go ahead, I'm the one with the merchandise",
+      "Yeah, well I'm the one with an exit.",
+      "And I'm the one with a plan.",
+    ],
     episode: 101,
     subject: "Leverage Inc.",
     timestamp: "12:55",
@@ -204,6 +211,18 @@ export const events: EventsTypes = [
     episode: 101,
     subject: "The Burn Scam",
     timestamp: "13:20",
+  },
+  {
+    episode: 101,
+    type: "IDontLikeGuns",
+    context: "Bering Aviation warehouse",
+    text: [
+      "No, No he's right the safety is on... Gimmee that... You armed?",
+      "I don't like guns.",
+    ],
+    timestamp: "17:08",
+    character: "Elliot Spencer",
+    subject: "Alec Hardison",
   },
   {
     episode: 101,
@@ -233,11 +252,20 @@ export const events: EventsTypes = [
     character: "Victor Dubenich",
     context: "Bering Aviation warehouse",
     text: [
+      "And the only reason you guys are here is because you didn't get paid... And you're pissed off right?",
       "The only way to is to get us all in the same place at the same time is to tell us that we're not getting paid.",
     ],
     episode: 101,
     subject: "Leverage Inc.",
     timestamp: "14:00",
+  },
+  {
+    type: "BoomGoesTheDynamite",
+    character: "Victor Dubenich",
+    subject: "Leverage Inc.",
+    context: "[Former] Bering Aviation warehouse",
+    episode: 101,
+    timestamp: "18:23",
   },
   {
     episode: 101,
@@ -254,10 +282,26 @@ export const events: EventsTypes = [
     context: "Hospital",
     timestamp: "19:40",
     character: "Nate Ford",
-    subject: "",
+    subject: "Leverage Inc.",
     text: [
       "Look guys here's your problem. You all know what you can do. I know what all you can do. That gives me the edge, that gives me the plan.",
     ],
+  },
+  {
+    type: "TheLift",
+    timestamp: "20:22",
+    character: "Alec Hardison",
+    context: "Hospital",
+    subject: "Charles Dufort",
+    episode: 101,
+  },
+  {
+    type: "TheLift",
+    timestamp: "20:36",
+    character: "Parker",
+    context: "Hospital",
+    subject: "Charles Dufort",
+    episode: 101,
   },
   {
     episode: 101,
@@ -279,7 +323,13 @@ export const events: EventsTypes = [
     type: "ParkerIsCrazy",
     character: "Eliot Spencer",
     context: "Hardison's place",
-    text: ["I take that personally", "There is something wrong with you."],
+    text: [
+      "He tried to kill us.",
+      "More importantly he didn't pay us.",
+      "How is that more important?",
+      "I take that personally",
+      "There is something wrong with you.",
+    ],
     episode: 101,
     subject: "Parker",
     timestamp: "23:02",
@@ -375,7 +425,7 @@ export const events: EventsTypes = [
     character: "Sophie Devereaux",
   },
   {
-    type: "ParkerIsCrazy",
+    type: "ComeFlyWithMe",
     character: "Parker",
     context: "Bering Aviation alternate office",
     text: ["What's it for?", "Speed."],
@@ -437,7 +487,6 @@ export const events: EventsTypes = [
     subject: "Soap Commercial",
     timestamp: "03:33",
   },
-  // Episode 102 - The Homecoming Job
   {
     type: "RecurringMaguffin",
     character: "Alec Hardison",
@@ -451,6 +500,7 @@ export const events: EventsTypes = [
     character: "Alec Hardison",
     context: "",
     text: [
+      "This... this is my masterpiece.",
       "Photo and video forensics, backdoors into every bank in the world.",
     ],
     episode: 102,
@@ -461,18 +511,36 @@ export const events: EventsTypes = [
     episode: 102,
     type: "ItsAVeryDistinctive",
     character: "Parker",
-    context: "You IDed the weapon from the gun shot sound?",
+    context: "",
+    text: [
+      "Contractors shot them up allright.",
+      "You IDed the weapon from the gun shot sound?",
+      "Its a very distictive sound.",
+    ],
     subject: "sound",
-    timestamp: "00:00",
+    timestamp: "08:12",
   },
   {
     type: "ThrowHardissonFromTheX",
     character: "Alec Hardison",
     context: "",
-    text: ["When were you going to test it?", "Big Baby..."],
+    text: [
+      "So its tested?",
+      "Not yet...",
+      "When were you going to test it?",
+      "Big Baby...",
+    ],
     episode: 102,
     subject: "Throwing Hardison from a roof",
     timestamp: "10:27",
+  },
+  {
+    episode: 102,
+    type: "TheGrifter",
+    context: "Dinner Party",
+    timestamp: "10:50",
+    character: "Sophie Devereaux",
+    subject: "Lilly McCredy of Executive Orders",
   },
   {
     type: "DirtyEvenForUs",
@@ -480,16 +548,41 @@ export const events: EventsTypes = [
     context: "",
     text: [
       "In these uncertain times buying a congressman is one of the best investments a corporation can make.",
+      "Oh, I just threw up in my mouth just a little bit. I'm a professional criminial and I find that disturbing.",
     ],
     episode: 102,
     subject: "Charles Dufort",
     timestamp: "12:14",
   },
   {
+    type: "TheLift",
+    timestamp: "13:02",
+    character: "Sophie Devereaux",
+    context: "Dinner Party",
+    subject: "Charles Dufort",
+    episode: 102,
+  },
+  {
+    type: "ElliotTheChef",
+    timestamp: "14:50",
+    character: "Sophie Devereaux",
+    context: "Dinner Party",
+    text: [
+      "Patted escargo avignair de argentine (No idea.) and what looks like greasy duck.",
+    ],
+    subject: "Charles Dufort",
+    episode: 102,
+  },
+  {
     episode: 102,
     type: "ItsAVeryDistinctive",
     character: "Alec Hardison",
-    context: "You idenditified a guy off his knife fighting style?",
+    context: "",
+    text: [
+      "The tall one, the way he used a knife? Ex-marine. Probably force-recon",
+      "You ID's a guy off his knife fighting style?",
+      "Its a very distinctive style.",
+    ],
     subject: "style",
     timestamp: "19:27",
   },
@@ -498,15 +591,33 @@ export const events: EventsTypes = [
     type: "TheMastermind",
     character: "Sophie",
     context: "This (glass of Scotch) is for later",
-    subject: "May I put that away from you? (Takes away bottle)",
+    text: [
+      "For later (Places glass of scotch on table).",
+      "May I put that away for you (Sophie takes away bottle)?",
+      "Didn't sound like a question (Resumes drinking glass).",
+    ],
+    subject: "Leverage Inc.",
     timestamp: "21:10",
+  },
+  {
+    episode: 102,
+    type: "TheLift",
+    context: "Washington DC",
+    text: [],
+    timestamp: "25:00",
+    character: "Parker",
+    subject: "",
   },
   {
     episode: 102,
     type: "LetsGoStealA",
     context: "",
-    text: ["Oh but steal a law... She's going to be a legend baby..."],
-    timestamp: "29:26",
+    text: [
+      "Break a law everyone's dont that. My mom has done that.",
+      "But steal a law... She's going to be a legend baby...",
+      "The Eagle has landed.",
+    ],
+    timestamp: "25:40",
     character: "Alec Hardison",
     subject: "Parker",
   },
@@ -514,13 +625,18 @@ export const events: EventsTypes = [
     episode: 102,
     type: "RomanticMoments",
     context: "",
-    text: ["Go ahead girl, sexiness!"],
+    text: [
+      "Go ahead girl, sexiness!",
+      "Might want to ease up on that a bit.",
+      "Just saying... Between me and you, me and you.",
+      "Never leaves the rooms.",
+    ],
     timestamp: "25:40",
     character: "Alec Hardison",
     subject: "Parker",
   },
   {
-    episode: 102, // TODO. WHEN does this happen?
+    episode: 102,
     type: "SomeoneIsAngry",
     context: "",
     text: ["I'm going to kill him."],
@@ -548,7 +664,7 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "NotableQuotes",
-    context: "",
+    context: "Port of Los Angeles",
     text: [
       "I'm sorry its too far away for you to punch. I'm sure that really frustrates you.",
     ],
@@ -559,8 +675,9 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "ParkerIsCrazy",
-    context: "",
+    context: "Port of Los Angeles",
     text: [
+      "Its reall... it feels real...",
       "What is it you have going on? you and Hardison? like a creepy contest?",
     ],
     timestamp: "30:12",
@@ -568,9 +685,23 @@ export const events: EventsTypes = [
     subject: "It's real... It feels real...",
   },
   {
+    type: "DirtyEvenForUs",
+    character: "Sophie Devereaux",
+    context: "Leverage Inc.",
+    text: [
+      "They turned the entire US government into a money laundering scam!",
+      "That's right...",
+      "Brilliant, I am impressed",
+      "Never thought I'd say this ever. That is just way too much money to steal...",
+    ],
+    timestamp: "32:10",
+    episode: 102,
+    subject: "Leverage Inc.",
+  },
+  {
     episode: 102,
     type: "ParkerIsCrazy",
-    context: "",
+    context: "Port of Los Angeles",
     text: [
       "They changed the locks.",
       "Just do what you do? [Pulls out bomb]. Oh hell no.",
@@ -582,30 +713,47 @@ export const events: EventsTypes = [
   {
     episode: 102,
     type: "OhHellNo",
-    context: "[Parker reveals explosive]. Oh hell no.",
+    context: "Port of Los Angeles",
+    text: [
+      "They changed the lock...",
+      "Just do what you do... I mean, whatever, what do you need?",
+      "[Parker reveals explosive] Nah, nuh un. Stop playing. Oh hell no.",
+    ],
     timestamp: "33:55",
     character: "Hardison",
     subject: "Bomb",
   },
   {
     episode: 102,
+    type: "BoomGoesTheDynamite",
+    context: "Port of Los Angeles",
+    text: [],
+    timestamp: "34:10",
+    character: "Parker",
+    subject: "Bomb",
+  },
+  {
+    episode: 102,
     type: "NotableQuotes",
-    context: "",
-    text: ["Anyone who wants to walk away may do so right now.", "One More"],
-    timestamp: "28:30",
+    context: "Outside VA Hospital",
+    text: [
+      "Anyone who wants to walk away may do so right now.",
+      "One More",
+      "Maybe two...",
+    ],
+    timestamp: "41:10",
     character: "Nate Ford",
     subject: "",
   },
   {
     episode: 102,
-    type: "TheGrifter",
-    context: "Dinner Party",
-    timestamp: "10:50",
-    character: "Sophie Devereaux",
-    subject: "Lilly McCredy of Executive Orders",
+    type: "ParkerIsCrazy",
+    context: "Port of Los Angeles",
+    text: ["I bought a plant.", "Nice! Team spirit.", "What does it do?"],
+    timestamp: "41:30",
+    character: "Parker",
+    subject: "Plant",
   },
-  // Episode 106 - The Two-Horse Job
-
   {
     episode: 106,
     type: "TheGrifter",
@@ -687,7 +835,6 @@ export const events: EventsTypes = [
     character: "James Sterling",
     subject: "Sophie Devereaux",
   },
-
   {
     episode: 106,
     type: "BlastFromThePast",
@@ -937,6 +1084,7 @@ export const events: EventsTypes = [
     character: "Andrew Grant",
     subject: "Sophie Devereaux",
   },
+
   // {
   //   episode: 107,
   //   type: "",
