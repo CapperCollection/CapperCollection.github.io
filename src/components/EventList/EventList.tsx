@@ -28,7 +28,7 @@ const EVENT_TYPES = [
   { value: "RomanticMoments", name: "Romantic Moments" },
   { value: "SomeoneIsAngry", name: "Someone is Angry" },
   { value: "TheGrifter", name: "The Grifter" },
-  { value: "Outmanuvered", name: "Outmanuvered" },
+  { value: "Outmaneuvered", name: "Outmaneuvered" },
   { value: "TastefulCutAway", name: "Tasteful Cutaway" },
   /* Hardison Moments */
   { value: "OhHellNo", name: "Oh Hell No" },

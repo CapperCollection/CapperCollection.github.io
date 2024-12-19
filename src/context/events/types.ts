@@ -14,7 +14,7 @@ type EventTypeType =
   | "BetrayalMostFoul"
   | "DirtyEvenForUs"
   | "NotableQuotes"
-  | "Outmanuvered"
+  | "Outmaneuvered"
   | "RecurringMaguffin"
   | "RomanticMoments"
   | "SomeoneIsAngry"
