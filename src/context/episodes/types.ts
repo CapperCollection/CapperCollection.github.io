@@ -7,6 +7,7 @@ type ExposeType =
   | "Colleagues";
 
 type MotiveType =
+  | "Blame Shift"
   | "Corporate Greed"
   | "Cash Theft"
   | "Political Greed"

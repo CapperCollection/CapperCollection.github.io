@@ -9,7 +9,7 @@ type EventTypeType =
   | "CharacterIntroduction"
   | "Flashback"
   | "NewJobUnlocked"
-  | "PriorThefts"
+  | "PriorJobs"
   /* Story Elements */
   | "BetrayalMostFoul"
   | "DirtyEvenForUs"
@@ -39,6 +39,7 @@ type EventTypeType =
   /* Sophie Moments */
   | "SophieTheActingCoach"
   | "SophieTheActress"
+  | "MotiveInsight"
   /* Parker Moments */
   | "ComeFlyWithMe"
   | "ParkerIsCrazy"

@@ -19,7 +19,7 @@ const EVENT_TYPES = [
   { value: "Flashback", name: "Flashbacks" },
   { value: "BlastFromThePast", name: "Blast from the Past" },
   { value: "NewJobUnlocked", name: "New Jobs" },
-  { value: "PriorThefts", name: "Prior Thefts" },
+  { value: "PriorJobs", name: "Prior Jobs" },
   /* Story Elements */
   { value: "BetrayalMostFoul", name: "Betrayal Most Foul" },
   { value: "DirtyEvenForUs", name: "Dirty, even for us!" },

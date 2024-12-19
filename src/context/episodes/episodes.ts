@@ -62,6 +62,35 @@ export const episodes: EpisodesType = [
   },
   {
     id: 2,
+    episode: 103,
+    description:
+      "The owner of a restaurant was forced to take the fall for a murder committed by local mob-boss.",
+    turn: "When Moscone seeks to change access to his accounts, the call is intercepted by Hardison and all assets are drained.",
+    link: "https://youtu.be/V2sH3XGiUns?si=ars5K4Z3MJn5rHUQ",
+    title: "The Wedding Job",
+    date: "December 30, 2008",
+    locations: ["Boston"],
+    antagonist: [
+      {
+        name: "Nicky Moscone",
+        occupation: "Mob boss",
+      },
+      {
+        name: "Heather Moscone",
+        occupation: "Mobster's wife",
+      },
+    ],
+    victims: [
+      {
+        name: "Ray Palermo",
+        occupation: "Restaurant Owner",
+      },
+    ],
+    motive: ["Blame Shift", "Mobster Greed"],
+    exposedTo: ["FBI", "Colleagues"],
+  },
+  {
+    id: 5,
     episode: 106,
     description:
       "After a paddock is set a blaze, the team is dispatched to expose the culprit and make things right.",
@@ -90,7 +119,7 @@ export const episodes: EpisodesType = [
     exposedTo: ["Insurance", "Colleagues"],
   },
   {
-    id: 3,
+    id: 6,
     episode: 107,
     description:
       "A friend of Nate is attacked on the street and the team is tasked with exposing the corrupt real-estate deal that led to the attack.",
