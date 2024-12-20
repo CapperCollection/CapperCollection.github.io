@@ -48,7 +48,7 @@ export const Event = ({ event, index }: EventInterface) => {
     <Element
       roundness="round-lg"
       theme={AvailableThemes[index % AvailableThemes.length]}
-      className={classNames({ hide: hideEvent })}
+      className={classNames(`episode-${event.episode}`, { hide: hideEvent })}
       sx="
   width: 100%;
   height: fit-content;

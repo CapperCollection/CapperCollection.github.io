@@ -3,6 +3,7 @@ import {
   AccordionButton,
   AccordionItem,
   AccordionPanel,
+  ArrowButton,
   Button,
   ButtonGroup,
   Element,
@@ -82,6 +83,11 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
   const handlePrevClick = () => {
     const element = document.getElementById(`episode-${episode.id - 1}`);
     if (element) scrollToElement(element);
+  };
+  const scrollToEpisode = () => {
+    document
+      .querySelector(`.episode-${episode.episode}`)
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const hideEpisode =
@@ -175,6 +181,12 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
             />
           )}
         </ButtonGroup>
+        <ArrowButton
+          direction="right"
+          isButton
+          label="Scroll to Episode Events"
+          onClick={scrollToEpisode}
+        />
       </footer>
     </EpisodeWrapper>
   );
