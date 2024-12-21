@@ -7,6 +7,10 @@
   "compilerOptions": {
     // other options
 
-    "lib": ["es2021", "dom"]
+    "lib": ["es2021", "dom"],
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["./src/*"]
+    }
   }
 }

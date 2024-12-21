@@ -1,7 +1,9 @@
 import { createRoot } from "react-dom/client";
-import "./index.css";
+
 import App from "./App.tsx";
-import { EventsProvider, EpisodesProvider } from "./context";
+import { EventsProvider, EpisodesProvider } from "src/context";
+
+import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <EpisodesProvider>

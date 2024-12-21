@@ -1,12 +1,13 @@
 import React from "react";
+import styled from "styled-components";
 import {
   Checkbox,
   Dropdown,
   DropdownBody,
   DropdownButton,
 } from "react-flatifycss";
-import { useEvents } from "../../context";
-import styled from "styled-components";
+
+import { useEvents } from "src/context";
 
 const EVENT_TYPES = [
   { value: "TitleDrop", name: "Title Drop" },

@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import { useEpisodes } from "../../context/episodes";
+
+import { useEpisodes } from "src/context";
+
 import { Episode } from "./Episode";
 
 const EpisodesWrapper = styled("div")`

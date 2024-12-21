@@ -1,7 +1,8 @@
-import { Element, Quote } from "react-flatifycss";
-import { EventType, useEvents } from "../../context";
 import classNames from "classnames";
+import { Element, Quote } from "react-flatifycss";
 import { Colors } from "react-flatifycss/dist/interfaces";
+
+import { EventType, useEvents } from "src/context";
 
 const AvailableThemes: Colors[] = [
   "blue",

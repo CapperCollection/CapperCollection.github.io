@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import { useEvents } from "../../context";
+
+import { useEvents } from "src/context";
+
 import { Event } from "./Event";
 
 const EventWrapper = styled("div")`

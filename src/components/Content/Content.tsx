@@ -1,7 +1,5 @@
 import styled from "styled-components";
-import { Episodes } from "../Episodes";
-import { Events } from "../Events";
-import { EventList } from "../EventList";
+import { EventList, Events, Episodes } from "src/components";
 
 const ContentWrapper = styled("div")`
   display: flex;

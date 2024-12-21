@@ -11,9 +11,10 @@ import {
 } from "react-flatifycss";
 
 import styled from "styled-components";
-import { EpisodeType, useEpisodes } from "../../context";
 import React from "react";
 import classNames from "classnames";
+
+import { type EpisodeType, useEpisodes } from "src/context";
 
 const EpisodeWrapper = styled("article")`
   align-items: flex-start;
@@ -141,8 +142,8 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
           <AccordionItem>
             <AccordionButton hasIcon>Antagonists</AccordionButton>
             <AccordionPanel>
-              {episode.antagonist.map((antagonist, index) => (
-                <p key={index}>
+              {episode.antagonist.map((antagonist) => (
+                <p key={antagonist.name}>
                   {antagonist.name} - {antagonist.occupation}
                 </p>
               ))}
@@ -151,8 +152,8 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
           <AccordionItem>
             <AccordionButton hasIcon>Victims</AccordionButton>
             <AccordionPanel>
-              {episode.victims.map((victim, index) => (
-                <p key={index}>
+              {episode.victims.map((victim) => (
+                <p key={victim.name}>
                   {victim.name} - {victim.occupation}
                 </p>
               ))}
