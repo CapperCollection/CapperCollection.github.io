@@ -12,3 +12,9 @@ createRoot(document.getElementById("root")!).render(
     </EventsProvider>
   </EpisodesProvider>
 );
+
+/* 
+Notes: Scam names: 
+https://www.tumblr.com/glen-reeder/149387327864/leverage-con-names
+https://en.wikipedia.org/wiki/List_of_scams#Rip_deal
+*/

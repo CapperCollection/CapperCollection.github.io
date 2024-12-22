@@ -31,11 +31,13 @@ const EVENT_TYPES = [
   { value: "TheGrifter", name: "The Grifter" },
   { value: "Outmaneuvered", name: "Outmaneuvered" },
   { value: "TastefulCutAway", name: "Tasteful Cutaway" },
+  { value: "Seriously", name: "Seriously?" },
   /* Hardison Moments */
   { value: "OhHellNo", name: "Oh Hell No" },
   { value: "AgeOfThe", name: "Age Of the Geed" },
   { value: "AlecTheHacker", name: "Alec the Hacker" },
   { value: "ThrowHardissonFromTheX", name: "Throw Hardison from the ..." },
+  { value: "DamnIt", name: "Damn it Hardison" },
   /* Nate Moments */
   { value: "TheMastermind", name: "The Mastermind" },
   { value: "NateTheDrunk", name: "Nate the Drunk" },

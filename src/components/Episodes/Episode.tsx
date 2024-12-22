@@ -42,6 +42,7 @@ const EpisodeWrapper = styled("article")`
   .hide {
     background-color: var(--flatify__card-txt-color);
   }
+
   .turn {
     cursor: pointer;
     user-select: none;
@@ -73,22 +74,21 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
   const { episodeFilters: filters, updateEpisodeFilters } = useEpisodes();
   const [hide, setHide] = React.useState(true);
 
-  const scrollToElement = (element: HTMLElement | null) => {
+  const scrollToElement = (selector: string) => {
+    const element = document.querySelector(selector);
     if (element) element.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleNextClick = () => {
-    const element = document.getElementById(`episode-${episode.id + 1}`);
-    if (element) scrollToElement(element);
+    scrollToElement(`#episode-${episode.id + 1}`);
+    scrollToElement(`.episode-${episode.episode + 1}`);
   };
   const handlePrevClick = () => {
-    const element = document.getElementById(`episode-${episode.id - 1}`);
-    if (element) scrollToElement(element);
+    scrollToElement(`#episode-${episode.id - 1}`);
+    scrollToElement(`.episode-${episode.episode - 1}`);
   };
   const scrollToEpisode = () => {
-    document
-      .querySelector(`.episode-${episode.episode}`)
-      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    scrollToElement(`.episode-${episode.episode}`);
   };
 
   const hideEpisode =
@@ -171,9 +171,12 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
               onClick={handlePrevClick}
             />
           )}
-          <Button as="a" href={episode.link} secondaryText="Watch Now!">
-            Episode {episode.episode}
-          </Button>
+          <ArrowButton
+            direction="top"
+            isButton
+            label="Scroll to Episode Events"
+            onClick={scrollToEpisode}
+          />
           {!last && (
             <Button
               aria-label="Arrow button"
@@ -182,12 +185,9 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
             />
           )}
         </ButtonGroup>
-        <ArrowButton
-          direction="right"
-          isButton
-          label="Scroll to Episode Events"
-          onClick={scrollToEpisode}
-        />
+        <Button as="a" href={episode.link} secondaryText="Watch Now!">
+          Episode {episode.episode}
+        </Button>
       </footer>
     </EpisodeWrapper>
   );
