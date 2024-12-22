@@ -20,6 +20,7 @@ type EventTypeType =
   | "SomeoneIsAngry"
   | "TastefulCutAway"
   | "TheGrifter"
+  | "Seriously"
   /* Thief Moments */
   | "TheLift"
   /* Hardison Moments */
@@ -27,6 +28,7 @@ type EventTypeType =
   | "AlecTheHacker"
   | "OhHellNo"
   | "ThrowHardissonFromTheX"
+  | "DamnIt"
   /* Nate Moments */
   | "NateDoesntLikeHospitals"
   | "NateTheDrunk"
@@ -45,7 +47,8 @@ type EventTypeType =
   | "ParkerIsCrazy"
   | "ParkerTheThief"
   /* References to Pop Culture */
-  | "TheSting";
+  | "TheSting"
+  | "SomethingCompleteDifferent";
 
 type MainCharactersType =
   | "Nate Ford"

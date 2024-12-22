@@ -90,11 +90,44 @@ export const episodes: EpisodesType = [
     exposedTo: ["FBI", "Colleagues"],
   },
   {
+    id: 3,
+    episode: 104,
+    description:
+      "A national guardsman's home is repossed by an unscrupulous construction firm. As the con goes on a string of similar repossessions is revealed.",
+    turn: "The mark is tricked into transferring all his funds offshore, triggering his arrest. The mark's son signs away controll of their company allowing the team to restore all stolen homes.",
+    link: "https://youtu.be/7Ubadx5paaI?si=vRM82YKbo1JKQSfj",
+    title: "The Snow Job",
+    date: "January 27, 2009",
+    locations: ["Holgan County, MS", "Miami, FL"],
+    antagonist: [
+      {
+        name: "Henry Retzing",
+        occupation: "Contractor - Self-made millionaire",
+      },
+      {
+        name: "Dennis Retzing",
+        occupation: "MBA from Duke - This man does the grunt work",
+      },
+      {
+        name: "Randy Retzing",
+        occupation: "Snowboarder & Judge of wet-t-shirt contests",
+      },
+    ],
+    victims: [
+      {
+        name: "Wayne Scott",
+        occupation: "National Guardsman",
+      },
+    ],
+    motive: ["Corporate Greed"],
+    exposedTo: ["Police"],
+  },
+  {
     id: 5,
     episode: 106,
     description:
       "After a paddock is set a blaze, the team is dispatched to expose the culprit and make things right.",
-    turn: "The house the antagonist was trying to buy was a decoy to get him to confess to commit insurance fraud.",
+    turn: "The horse the antagonist was trying to buy was a decoy to get him to commit insurance fraud.",
     link: "https://youtu.be/tFhJ8tGK1Kc?si=3OUsqFFrs5QuH6Fx",
     title: "The Two-Horse Job",
     date: "December 16, 2008",
