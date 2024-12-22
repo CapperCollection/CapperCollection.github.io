@@ -123,6 +123,35 @@ export const episodes: EpisodesType = [
     exposedTo: ["Police"],
   },
   {
+    id: 4,
+    episode: 105,
+    description:
+      "Following the death of a young girl the crew is tasked with retrieving daming evidence en route to the Cayman islands.",
+    turn: "The company accountant is convinced to testify against GenoGrow Industries following the attempted murder.",
+    link: "https://youtu.be/7Ubadx5paaI?si=vRM82YKbo1JKQSfj",
+    title: "The Mile High Job",
+    date: "January 20, 2009",
+    locations: ["Los Angeles", "Cayman Islands"],
+    antagonist: [
+      {
+        name: "Allen Haldeman",
+        occupation: "CEO of GenoGrow Industries",
+      },
+    ],
+    victims: [
+      {
+        name: "Mark Jameson",
+        occupation: "Father to Ashley",
+      },
+      {
+        name: "Stacey Jameson",
+        occupation: "Mother to Ashley",
+      },
+    ],
+    motive: ["Corporate Greed"],
+    exposedTo: ["Court"],
+  },
+  {
     id: 5,
     episode: 106,
     description:

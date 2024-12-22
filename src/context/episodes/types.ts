@@ -4,6 +4,7 @@ type ExposeType =
   | "Company"
   | "Police"
   | "Insurance"
+  | "Court"
   | "Colleagues";
 
 type MotiveType =
