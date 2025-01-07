@@ -11,3 +11,10 @@
 - [React](https://reactjs.org/)
 - [FlatCSS](https://react.flatifycss.com/)
 - [FlatifyCSS](https://flatifycss.com/)
+
+## Build Process
+
+```
+yarn build
+yarn deploy
+```
