@@ -9,6 +9,7 @@ type ExposeType =
 
 type MotiveType =
   | "Blame Shift"
+  | "Corruption"
   | "Corporate Greed"
   | "Cash Theft"
   | "Political Greed"

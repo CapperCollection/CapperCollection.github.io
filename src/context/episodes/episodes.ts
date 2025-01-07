@@ -10,7 +10,7 @@ export const episodes: EpisodesType = [
     link: "https://youtu.be/YM6-fBB7yQY?si=CC9A1LwVBTDNguaL",
     title: "The Nigerian Job",
     date: "December 7, 2008	",
-    locations: ["Chicago"],
+    locations: ["Chicago, IL"],
     antagonist: [
       {
         name: "Victor Dubenich",
@@ -35,7 +35,7 @@ export const episodes: EpisodesType = [
     link: "https://youtu.be/LMX2-vsoGSo?si=hGMJX_wMZWmZ7Ga9",
     title: "The Homecoming Job",
     date: "December 9, 2008",
-    locations: ["Los Angeles"],
+    locations: ["Los Angeles, CA"],
     antagonist: [
       {
         name: "Charles Dufort",
@@ -69,7 +69,7 @@ export const episodes: EpisodesType = [
     link: "https://youtu.be/V2sH3XGiUns?si=ars5K4Z3MJn5rHUQ",
     title: "The Wedding Job",
     date: "December 30, 2008",
-    locations: ["Boston"],
+    locations: ["Boston, MA"],
     antagonist: [
       {
         name: "Nicky Moscone",
@@ -131,7 +131,7 @@ export const episodes: EpisodesType = [
     link: "https://youtu.be/7Ubadx5paaI?si=vRM82YKbo1JKQSfj",
     title: "The Mile High Job",
     date: "January 20, 2009",
-    locations: ["Los Angeles", "Cayman Islands"],
+    locations: ["Los Angeles, CA", "Cayman Islands"],
     antagonist: [
       {
         name: "Allen Haldeman",
@@ -160,7 +160,7 @@ export const episodes: EpisodesType = [
     link: "https://youtu.be/tFhJ8tGK1Kc?si=3OUsqFFrs5QuH6Fx",
     title: "The Two-Horse Job",
     date: "December 16, 2008",
-    locations: ["Louisville"],
+    locations: ["Louisville, KY"],
     antagonist: [
       {
         name: "Alan Foss",
@@ -189,7 +189,7 @@ export const episodes: EpisodesType = [
     link: "https://youtu.be/ivomuNvW5A8?si=fTJ4r74ycQujat1v",
     title: "The Miracle Job",
     date: "December 23, 2008",
-    locations: ["Los Angeles"],
+    locations: ["Los Angeles, CA"],
     antagonist: [
       {
         name: "Andrew Grant",
@@ -204,5 +204,42 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Corporate Greed"],
     exposedTo: ["Media", "Police"],
+  },
+  {
+    id: 7,
+    episode: 108,
+    description:
+      "The team is in the process of exposing a corrupt job when a second job lands on their head.",
+    turn: "After Ellen Clark is rescued, and Judge Roy discovers he is being conned, the situation in the bank is reengineered to make Judge Roy look like he has gone crazy.",
+    link: "https://youtu.be/BDqWgwcroJo?si=-saawwkMB2mZmmoQ",
+    title: "The Bank Shot Job",
+    date: "January 13, 2009",
+    locations: ["Juan, CA"],
+    antagonist: [
+      {
+        name: "Roy",
+        occupation: "Local Judge",
+      },
+    ],
+    victims: [
+      {
+        name: "Derek Clark",
+        occupation: "Retired Navy",
+      },
+      {
+        name: "Ellen Clark",
+        occupation: "Housewife",
+      },
+      {
+        name: "Michael Clark",
+        occupation: "Drug Dealer / Student",
+      },
+      {
+        name: "Delgado Family",
+        occupation: "Family of murdered Beth Delgado",
+      },
+    ],
+    motive: ["Corruption"],
+    exposedTo: ["FBI", "Police"],
   },
 ];
