@@ -16,5 +16,25 @@
 
 ```
 yarn build
+```
+
+Things to do before deploying:
+
+### CSS
+
+Cover image in css file needs to be updated with the text `/leverage-app`.
+
+### HTML
+
+Sources in the html file need to be updated with the text `/leverage-app`.
+
+- apple-touch-icon
+- icon
+- icon
+- stylesheet
+- script
+- manifest
+
+```
 yarn deploy
 ```
