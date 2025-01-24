@@ -39,7 +39,7 @@ type EventTypeType =
   | "IDontLikeGuns"
   | "ItsAVeryDistinctive"
   /* Sophie Moments */
-  | "SophieTheActingCoach"
+  | "SophieTheActingCoach" // TODO Add moments where she tells people what things mean.
   | "SophieTheActress"
   | "MotiveInsight"
   /* Parker Moments */

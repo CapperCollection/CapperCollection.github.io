@@ -242,4 +242,41 @@ export const episodes: EpisodesType = [
     motive: ["Corruption"],
     exposedTo: ["FBI", "Police"],
   },
+  {
+    id: 8,
+    episode: 109,
+    description:
+      "After an adoption scam is exposed, the team is tasked with recovering the stolen child and subsequently children.",
+    turn: "The guns were switched out with props, so the team could get the children out of the orphanage and the gun dealers would get in trouble with his clients.",
+    link: "https://youtu.be/eykK2GVqb7w?si=8B1AIkJDCk_bDzaN",
+    title: "The Stork Job",
+    date: "January 6, 2009",
+    locations: ["Belgrade, Serbia"],
+    antagonist: [
+      {
+        name: "Irina Larenko",
+        occupation: "Former Model",
+      },
+      {
+        name: "Nicolas Obrovic",
+        occupation: "Organized Crime",
+      },
+    ],
+    victims: [
+      {
+        name: "Joe Morton",
+        occupation: "Adoptive Parents",
+      },
+      {
+        name: "Dana Morton",
+        occupation: "Adoptive Parents",
+      },
+      {
+        name: "Adoptees",
+        occupation: "Minors",
+      },
+    ],
+    motive: ["Mobster Greed"],
+    exposedTo: ["Colleagues"],
+  },
 ];
