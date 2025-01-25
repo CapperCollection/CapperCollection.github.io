@@ -8,9 +8,10 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://penkar.github.io/leverage-app/",
+  "homepage": "https://CapperCollection.github.io/",
   "dependencies": {
     "@types/lodash": "^4.17.13",
     "classnames": "^2.5.1",
