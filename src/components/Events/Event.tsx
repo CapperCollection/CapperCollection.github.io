@@ -49,7 +49,10 @@ export const Event = ({ event, index }: EventInterface) => {
     <Element
       roundness="round-lg"
       theme={AvailableThemes[index % AvailableThemes.length]}
-      className={classNames(`episode-${event.episode}`, { hide: hideEvent })}
+      id={`event-${episode}-${index}`}
+      className={classNames(`event episode-${event.episode}`, {
+        hide: hideEvent,
+      })}
       sx="
   width: 100%;
   height: fit-content;
@@ -74,9 +77,9 @@ export const Event = ({ event, index }: EventInterface) => {
         <h4>
           {type} - {episode} - {timestamp}
         </h4>
-        {text?.length && (
+        {Boolean(text?.length) && (
           <Quote size="sm" hasIcon>
-            {text.map((line) => (
+            {text?.map((line) => (
               <div key={line.replaceAll(" ", "-")}>{line}</div>
             ))}
           </Quote>

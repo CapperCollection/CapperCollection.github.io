@@ -34,7 +34,7 @@ const EVENT_TYPES = [
   { value: "Seriously", name: "Seriously?" },
   /* Hardison Moments */
   { value: "OhHellNo", name: "Oh Hell No" },
-  { value: "AgeOfThe", name: "Age Of the Geed" },
+  { value: "AgeOfThe", name: "Age Of the Geek" },
   { value: "AlecTheHacker", name: "Alec the Hacker" },
   { value: "ThrowHardissonFromTheX", name: "Throw Hardison from the ..." },
   { value: "DamnIt", name: "Damn it Hardison" },

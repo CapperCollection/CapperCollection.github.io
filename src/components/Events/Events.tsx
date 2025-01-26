@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useEvents } from "src/context";
 
 import { Event } from "./Event";
+import { useObserver } from "src/context/observer";
 
 const EventWrapper = styled("div")`
   align-items: flex-end;
@@ -17,8 +18,10 @@ const EventWrapper = styled("div")`
 export const Events = () => {
   const { events } = useEvents();
 
+  useObserver();
+
   return (
-    <EventWrapper>
+    <EventWrapper id="events">
       {events.map((event, index) => (
         <Event
           key={`event-${event.episode}-${index}`}

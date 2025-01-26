@@ -25,6 +25,12 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Corporate Greed"],
     exposedTo: ["FBI", "Company"],
+    realLifeEvents: [
+      {
+        description: "2008 RyanAir expands to Africa",
+        link: "",
+      },
+    ],
   },
   {
     id: 1,
@@ -59,6 +65,7 @@ export const episodes: EpisodesType = [
       "Political Greed",
     ],
     exposedTo: ["Media"],
+    realLifeEvents: [],
   },
   {
     id: 2,
@@ -88,6 +95,7 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Blame Shift", "Mobster Greed"],
     exposedTo: ["FBI", "Colleagues"],
+    realLifeEvents: [],
   },
   {
     id: 3,
@@ -121,6 +129,7 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Corporate Greed"],
     exposedTo: ["Police"],
+    realLifeEvents: [],
   },
   {
     id: 4,
@@ -150,6 +159,7 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Corporate Greed"],
     exposedTo: ["Court"],
+    realLifeEvents: [],
   },
   {
     id: 5,
@@ -179,6 +189,7 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Insurance Fraud"],
     exposedTo: ["Insurance", "Colleagues"],
+    realLifeEvents: [],
   },
   {
     id: 6,
@@ -204,6 +215,7 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Corporate Greed"],
     exposedTo: ["Media", "Police"],
+    realLifeEvents: [],
   },
   {
     id: 7,
@@ -241,13 +253,14 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Corruption"],
     exposedTo: ["FBI", "Police"],
+    realLifeEvents: [],
   },
   {
     id: 8,
     episode: 109,
     description:
       "After an adoption scam is exposed, the team is tasked with recovering the stolen child and subsequently children.",
-    turn: "The guns were switched out with props, so the team could get the children out of the orphanage and the gun dealers would get in trouble with his clients.",
+    turn: "The guns were switched out with props, so the team could get the children out of the orphanage and Nicolas would be in hot water with his clients.",
     link: "https://youtu.be/eykK2GVqb7w?si=8B1AIkJDCk_bDzaN",
     title: "The Stork Job",
     date: "January 6, 2009",
@@ -278,5 +291,6 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Mobster Greed"],
     exposedTo: ["Colleagues"],
+    realLifeEvents: [],
   },
 ];

@@ -22,6 +22,11 @@ type CharacterType = {
   occupation: string;
 };
 
+type RealLifeEvent = {
+  description: string;
+  link: string;
+};
+
 export type EpisodeType = {
   id: number;
   episode: number;
@@ -35,6 +40,7 @@ export type EpisodeType = {
   exposedTo: ExposeType[];
   victims: CharacterType[];
   link: string;
+  realLifeEvents: RealLifeEvent[];
 };
 
 export type EpisodesType = EpisodeType[];
