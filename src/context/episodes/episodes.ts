@@ -137,7 +137,7 @@ export const episodes: EpisodesType = [
     description:
       "Following the death of a young girl the crew is tasked with retrieving daming evidence en route to the Cayman islands.",
     turn: "The company accountant is convinced to testify against GenoGrow Industries following the attempted murder.",
-    link: "https://youtu.be/7Ubadx5paaI?si=vRM82YKbo1JKQSfj",
+    link: "https://youtu.be/-p7Z2c9hjvk?si=GySY0r49uV7KpDvq",
     title: "The Mile High Job",
     date: "January 20, 2009",
     locations: ["Los Angeles, CA", "Cayman Islands"],
@@ -291,6 +291,36 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Mobster Greed"],
     exposedTo: ["Colleagues"],
+    realLifeEvents: [],
+  },
+  {
+    id: 9,
+    episode: 110,
+    description:
+      "While serving on a jury Parker notices the defense is employing some all too familiar tactics...",
+    turn: "The video feed seen by Earnshawn was doctored to make it look like Live Herbally won the trial.",
+    link: "https://youtu.be/V21Q6QjV0Hc?si=XHCFWlxUAoAnoSsr",
+    title: "Juror #6 Job",
+    date: "February 10, 2009",
+    locations: ["Boston, MA"],
+    antagonist: [
+      {
+        name: "Tobey Earnshaw",
+        occupation: "Heiress to Earnshaw Pharmaceuticals",
+      },
+      {
+        name: "William Quint",
+        occupation: "CEO of Live Herbally",
+      },
+    ],
+    victims: [
+      {
+        name: "Gloria Vargas",
+        occupation: "Wife of Ernesto Vargas",
+      },
+    ],
+    motive: ["Corporate Greed"],
+    exposedTo: [],
     realLifeEvents: [],
   },
 ];
