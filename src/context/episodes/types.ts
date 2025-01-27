@@ -1,4 +1,5 @@
 type ExposeType =
+  | "Clients"
   | "Media"
   | "FBI"
   | "Company"
@@ -8,6 +9,7 @@ type ExposeType =
   | "Colleagues";
 
 type MotiveType =
+  | "Addiction"
   | "Blame Shift"
   | "Corruption"
   | "Corporate Greed"

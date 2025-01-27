@@ -328,7 +328,7 @@ export const episodes: EpisodesType = [
     eps: 110,
     description:
       "A corrupt money manager steals from a food bank and the team is tasked with recovering the stolen funds. In doing so they find more to the culprit than meets the eye.",
-    turn: "",
+    turn: "An explosion goes off seeming to kill Hurley, but in reality the team has helped him slip away from the gangsters.",
     link: "https://youtu.be/VAJQrkG4z40?si=3mjAIjM112dp-AcH",
     title: "The 12 Step Job",
     date: "February 3, 2009",
@@ -345,8 +345,8 @@ export const episodes: EpisodesType = [
         occupation: "Official with a food bank",
       },
     ],
-    motive: ["Corporate Greed"],
-    exposedTo: ["Colleagues"],
+    motive: ["Addiction"],
+    exposedTo: ["Colleagues", "Clients"],
     realLifeEvents: [],
   },
 ];
