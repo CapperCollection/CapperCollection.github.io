@@ -24,7 +24,7 @@ export const Events = () => {
     <EventWrapper id="events">
       {events.map((event, index) => (
         <Event
-          key={`event-${event.episode}-${index}`}
+          key={`event-${event.eps}-${index}`}
           index={index}
           event={event}
         />

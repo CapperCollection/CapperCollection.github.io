@@ -5,7 +5,7 @@ export const events: EventsTypes = [
     type: "CharacterIntroduction",
     character: "Nate Ford",
     context: "A former insurance investigator.",
-    episode: 101,
+    eps: 101,
     subject: "Ex-insurance investigator",
     timestamp: "00:10",
   },
@@ -13,7 +13,7 @@ export const events: EventsTypes = [
     type: "CharacterIntroduction",
     character: "Victor Dubenich",
     context: "The CEO of Bering Aerospace.",
-    episode: 101,
+    eps: 101,
     subject: "CEO",
     timestamp: "00:25",
   },
@@ -21,7 +21,7 @@ export const events: EventsTypes = [
     type: "CharacterIntroduction",
     character: "Alec Hardison",
     context: "Rooftop",
-    episode: 101,
+    eps: 101,
     subject: "Hacker",
     timestamp: "04:02",
   },
@@ -32,12 +32,12 @@ export const events: EventsTypes = [
     text: [
       "Bone-conduction ear piece mike. Works off the movement of your jaw.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "",
     timestamp: "04:10",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "OhHellNo",
     text: [
       "No... no no no no... Hell Nah! This equiptment is total VH1 Bro. Its best of the 80's!",
@@ -48,7 +48,7 @@ export const events: EventsTypes = [
     subject: "Ear piece",
   },
   {
-    episode: 101,
+    eps: 101,
     character: "Alec Hardison",
     context:
       "NYC 5 years ago - Hardison and several women dressed as Princess Leia",
@@ -61,12 +61,12 @@ export const events: EventsTypes = [
     type: "CharacterIntroduction",
     character: "Elliot Spencer",
     context: "Pierson Aviation Building",
-    episode: 101,
+    eps: 101,
     subject: "Retrieval Specialist",
     timestamp: "04:50",
   },
   {
-    episode: 101,
+    eps: 101,
     character: "Elilot Spencer",
     context:
       "Elliot clears a room full of men with guns to retrieve a baseball card...",
@@ -80,7 +80,7 @@ export const events: EventsTypes = [
     character: "Elliot Spencer",
     context: "Pierson Aviation Building",
     text: ["Age of the geek baby, we run the world."],
-    episode: 101,
+    eps: 101,
     subject: "Geek",
     timestamp: "05:33",
   },
@@ -88,12 +88,12 @@ export const events: EventsTypes = [
     type: "CharacterIntroduction",
     character: "Parker",
     context: "Pierson Aviation Building",
-    episode: 101,
+    eps: 101,
     subject: "Thief.",
     timestamp: "05:45",
   },
   {
-    episode: 101,
+    eps: 101,
     character: "Parker",
     context: "House explodes and a child skips away with a stuffed rabbit",
     subject: "Parker",
@@ -104,7 +104,7 @@ export const events: EventsTypes = [
     type: "Flashback",
   },
   {
-    episode: 101,
+    eps: 101,
     character: "Parker",
     context: "Pierson Aviation Building",
     text: [
@@ -124,7 +124,7 @@ export const events: EventsTypes = [
       "Yeah its completely safe... its just... You know if you experience nausea... weakness in your right side... stroke... strokiness...",
       "You're precisely why I work alone.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "Alec Hardison",
     timestamp: "07:00",
   },
@@ -143,7 +143,7 @@ export const events: EventsTypes = [
       "Yeehaw!",
       "That's 20 pounds of crazy in a 5 pound bag.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "",
     timestamp: "06:58",
   },
@@ -156,7 +156,7 @@ export const events: EventsTypes = [
       "Haircuts Parker, count the haircuts",
       "I would have missed that.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "Nate Ford",
     timestamp: "09:23",
   },
@@ -165,7 +165,7 @@ export const events: EventsTypes = [
     character: "Eliot Spencer",
     context: "Pierson Aviation Building",
     text: ["I want you to clear the zone, and use Hardison as bait."],
-    episode: 101,
+    eps: 101,
     subject: "That's what I do.",
     timestamp: "11:14",
   },
@@ -177,7 +177,7 @@ export const events: EventsTypes = [
       "Did you give them a virus?",
       "Dude I gave them more than one virus.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "",
     timestamp: "12:18",
   },
@@ -191,7 +191,7 @@ export const events: EventsTypes = [
       "Yeah, well I'm the one with an exit.",
       "And I'm the one with a plan.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "Leverage Inc.",
     timestamp: "12:55",
   },
@@ -200,7 +200,7 @@ export const events: EventsTypes = [
     character: "Nate Ford",
     subject: "The Burn Scam",
     context: "Pierson Aviation Building",
-    episode: 101,
+    eps: 101,
     timestamp: "13:20",
   },
   {
@@ -208,12 +208,12 @@ export const events: EventsTypes = [
     character: "Nate Ford",
     context: "Pierson Aviation Building",
     text: ["Technically that would be plan G. Hardison dies in plan M."],
-    episode: 101,
+    eps: 101,
     subject: "The Burn Scam",
     timestamp: "13:20",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "IDontLikeGuns",
     context: "Bering Aviation warehouse",
     text: [
@@ -225,7 +225,7 @@ export const events: EventsTypes = [
     subject: "Alec Hardison",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "ParkerIsCrazy",
     context: "Bering Aviation warehouse",
     text: [
@@ -236,7 +236,7 @@ export const events: EventsTypes = [
     subject: "Dubenich",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "OhHellNo",
     context: "Bering Aviation warehouse",
     text: [
@@ -255,7 +255,7 @@ export const events: EventsTypes = [
       "And the only reason you guys are here is because you didn't get paid... And you're pissed off right?",
       "The only way to is to get us all in the same place at the same time is to tell us that we're not getting paid.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "Leverage Inc.",
     timestamp: "14:00",
   },
@@ -264,11 +264,11 @@ export const events: EventsTypes = [
     character: "Victor Dubenich",
     subject: "Leverage Inc.",
     context: "[Former] Bering Aviation warehouse",
-    episode: 101,
+    eps: 101,
     timestamp: "18:23",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "NateDoesntLikeHospitals",
     context: "Hospital",
     text: ["You don't like hospitals.", "Not much."],
@@ -277,7 +277,7 @@ export const events: EventsTypes = [
     subject: "Nate Ford",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "NotableQuotes",
     context: "Hospital",
     timestamp: "19:40",
@@ -293,7 +293,7 @@ export const events: EventsTypes = [
     character: "Alec Hardison",
     context: "Hospital",
     subject: "Charles Dufort",
-    episode: 101,
+    eps: 101,
   },
   {
     type: "TheLift",
@@ -301,10 +301,10 @@ export const events: EventsTypes = [
     character: "Parker",
     context: "Hospital",
     subject: "Charles Dufort",
-    episode: 101,
+    eps: 101,
   },
   {
-    episode: 101,
+    eps: 101,
     type: "TheGrifter",
     context: "Hospital",
     timestamp: "21:11",
@@ -312,7 +312,7 @@ export const events: EventsTypes = [
     subject: "Detective Lieutenant Carden with the Illinoi State Police",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "TheGrifter",
     context: "Hospital",
     timestamp: "21:30",
@@ -330,7 +330,7 @@ export const events: EventsTypes = [
       "I take that personally",
       "There is something wrong with you.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "Parker",
     timestamp: "23:02",
   },
@@ -339,7 +339,7 @@ export const events: EventsTypes = [
     character: "Nate Ford",
     context: "Hardison's place",
     text: ["What's in it for you?", "He used my son..."],
-    episode: 101,
+    eps: 101,
     subject: "Victor Dubenich",
     timestamp: "25:05",
   },
@@ -347,20 +347,20 @@ export const events: EventsTypes = [
     type: "SophieTheActress",
     character: "Sophie Devereaux",
     context: "Lady Macbeth - Macbeth",
-    episode: 101,
+    eps: 101,
     subject: "Macbeth",
     timestamp: "25:37",
   },
   {
     type: "CharacterIntroduction",
-    episode: 101,
+    eps: 101,
     subject: "Griffter",
     context: "Theater - Macbeth",
     character: "Sophie Devereaux",
     timestamp: "05:45",
   },
   {
-    episode: 101,
+    eps: 101,
     context:
       "Paris 7 years ago - Nate bursts into a room and is shot by Sohpie. He immediately returns fire.",
     text: ["Freeze!", "You Wanker!"],
@@ -370,7 +370,7 @@ export const events: EventsTypes = [
     type: "Flashback",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "LetsGoStealA",
     context: "",
     text: [
@@ -382,7 +382,7 @@ export const events: EventsTypes = [
     subject: "Victor Dubenich",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "TheGrifter",
     text: [
       "African Commercial Transport and Trade Initiative",
@@ -395,7 +395,7 @@ export const events: EventsTypes = [
     subject: "Anna Gunschtot",
   },
   {
-    episode: 101,
+    eps: 101,
     type: "SophieTheActress",
     context: "",
     text: [
@@ -407,7 +407,7 @@ export const events: EventsTypes = [
     subject: "Anna Gunstott",
   },
   {
-    episode: 101,
+    eps: 101,
     timestamp: "37:07",
     type: "Flashback",
     context: "Nate at the bedside of his dying son",
@@ -416,7 +416,7 @@ export const events: EventsTypes = [
     character: "Nathan Ford",
   },
   {
-    episode: 101,
+    eps: 101,
     timestamp: "37:07",
     type: "RomanticMoments",
     context: "Hardison's place",
@@ -429,7 +429,7 @@ export const events: EventsTypes = [
     character: "Parker",
     context: "Bering Aviation alternate office",
     text: ["What's it for?", "Speed."],
-    episode: 101,
+    eps: 101,
     subject: "Sophie Devereaux",
     timestamp: "39:45",
   },
@@ -441,7 +441,7 @@ export const events: EventsTypes = [
       "What is it with women and shoes?",
       "There is something wrong with you.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "Parker",
     timestamp: "52:48",
   },
@@ -455,14 +455,14 @@ export const events: EventsTypes = [
       "Age of the geek baby.",
       "Someone kiss him so I don't have to.",
     ],
-    episode: 101,
+    eps: 101,
     subject: "Leverage Inc.",
     timestamp: "05:33",
   },
   {
     type: "NewJobUnlocked",
     timestamp: "55:25",
-    episode: 101,
+    eps: 101,
     context: "Black King. White Knight",
     character: "Nate Ford",
     subject: "Mastermind",
@@ -470,7 +470,7 @@ export const events: EventsTypes = [
   {
     type: "TitleDrop",
     context: "",
-    episode: 101,
+    eps: 101,
     character: "Nate Ford",
     subject: "Leverage",
     timestamp: "56:00",
@@ -484,7 +484,7 @@ export const events: EventsTypes = [
       "Yeah, you understand this is a soap commercial right?",
       "Uh huh, when I thought about Peggy I came up with this idea that the dirt was really this giant metaphor for sin.",
     ],
-    episode: 102,
+    eps: 102,
     subject: "Soap Commercial",
     timestamp: "03:33",
   },
@@ -493,7 +493,7 @@ export const events: EventsTypes = [
     character: "Alec Hardison",
     subject: "Leverage Consulting Assoc",
     context: "Founded in 1913 by the great Harlin Leverage III",
-    episode: 102,
+    eps: 102,
     timestamp: "05:51",
   },
   {
@@ -504,12 +504,12 @@ export const events: EventsTypes = [
       "This... this is my masterpiece.",
       "Photo and video forensics, backdoors into every bank in the world.",
     ],
-    episode: 102,
+    eps: 102,
     subject: "Leverage Inc tech wall",
     timestamp: "07:20",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "ItsAVeryDistinctive",
     character: "Parker",
     context: "",
@@ -531,12 +531,12 @@ export const events: EventsTypes = [
       "When were you going to test it?",
       "Big Baby...",
     ],
-    episode: 102,
+    eps: 102,
     subject: "Throwing Hardison from a roof",
     timestamp: "10:27",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "TheGrifter",
     context: "Dinner Party",
     timestamp: "10:50",
@@ -551,7 +551,7 @@ export const events: EventsTypes = [
       "In these uncertain times buying a congressman is one of the best investments a corporation can make.",
       "Oh, I just threw up in my mouth just a little bit. I'm a professional criminial and I find that disturbing.",
     ],
-    episode: 102,
+    eps: 102,
     subject: "Charles Dufort",
     timestamp: "12:14",
   },
@@ -561,7 +561,7 @@ export const events: EventsTypes = [
     character: "Sophie Devereaux",
     context: "Dinner Party",
     subject: "Charles Dufort",
-    episode: 102,
+    eps: 102,
   },
   {
     type: "ElliotTheChef",
@@ -572,10 +572,10 @@ export const events: EventsTypes = [
       "Patted escargo avignair de argentine (No idea.) and what looks like greasy duck.",
     ],
     subject: "Charles Dufort",
-    episode: 102,
+    eps: 102,
   },
   {
-    episode: 102,
+    eps: 102,
     type: "ItsAVeryDistinctive",
     character: "Alec Hardison",
     context: "",
@@ -588,7 +588,7 @@ export const events: EventsTypes = [
     timestamp: "19:27",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "TheMastermind",
     character: "Sophie",
     context: "This (glass of Scotch) is for later",
@@ -601,7 +601,7 @@ export const events: EventsTypes = [
     timestamp: "21:10",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "TheLift",
     context: "Washington DC",
     text: [],
@@ -610,7 +610,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "LetsGoStealA",
     context: "",
     text: [
@@ -623,7 +623,7 @@ export const events: EventsTypes = [
     subject: "Parker",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "RomanticMoments",
     context: "",
     text: [
@@ -637,7 +637,7 @@ export const events: EventsTypes = [
     subject: "Parker",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "SomeoneIsAngry",
     context: "",
     text: ["I'm going to kill him."],
@@ -646,7 +646,7 @@ export const events: EventsTypes = [
     subject: "Hardison",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "TheGrifter",
     context: "Dinner Party",
     timestamp: "10:50",
@@ -654,7 +654,7 @@ export const events: EventsTypes = [
     subject: "Lilly McCredy of Executive Orders",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "TheGrifter",
     context: "Dinner Party",
     timestamp: "22:10",
@@ -663,7 +663,7 @@ export const events: EventsTypes = [
       "Tom Abrams, you can call me Tommy I work with congressman Calloway",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "NotableQuotes",
     context: "Port of Los Angeles",
     text: [
@@ -674,7 +674,7 @@ export const events: EventsTypes = [
     subject: "Disabling the webcam",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "ParkerIsCrazy",
     context: "Port of Los Angeles",
     text: [
@@ -697,11 +697,11 @@ export const events: EventsTypes = [
       "Never thought I'd say this ever. That is just way too much money to steal...",
     ],
     timestamp: "32:10",
-    episode: 102,
+    eps: 102,
     subject: "Leverage Inc.",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "ParkerIsCrazy",
     context: "Port of Los Angeles",
     text: [
@@ -713,7 +713,7 @@ export const events: EventsTypes = [
     subject: "Bomb",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "OhHellNo",
     context: "Port of Los Angeles",
     text: [
@@ -726,7 +726,7 @@ export const events: EventsTypes = [
     subject: "Bomb",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "BoomGoesTheDynamite",
     context: "Port of Los Angeles",
     text: [],
@@ -735,7 +735,7 @@ export const events: EventsTypes = [
     subject: "Bomb",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "NotableQuotes",
     context: "Outside VA Hospital",
     text: [
@@ -748,7 +748,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 102,
+    eps: 102,
     type: "ParkerIsCrazy",
     context: "Port of Los Angeles",
     text: ["I bought a plant.", "Nice! Team spirit.", "What does it do?"],
@@ -757,7 +757,7 @@ export const events: EventsTypes = [
     subject: "Plant",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "ParkerTheThief",
     context: "Leverage Inc.",
     timestamp: "03:55",
@@ -765,7 +765,7 @@ export const events: EventsTypes = [
     subject: "Teresa's daughter",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "MotiveInsight",
     context: "Leverage Inc.",
     timestamp: "04:32",
@@ -779,7 +779,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "LetsGoStealA",
     context: "Leveage Inc.",
     timestamp: "05:35",
@@ -788,7 +788,7 @@ export const events: EventsTypes = [
       "Let's go rob Nicky Moscone, a guy who kills people and lives in our city.",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "TheGrifter",
     context: "FBI Plumber Van",
     timestamp: "06:45",
@@ -796,7 +796,7 @@ export const events: EventsTypes = [
     subject: "Special Agent Thomas - FBI",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "TheGrifter",
     context: "FBI Plumber Van",
     timestamp: "06:55",
@@ -804,7 +804,7 @@ export const events: EventsTypes = [
     subject: "Special Agent Hagen - Fresh out of Quantico",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "CharacterIntroduction",
     context: "FBI Plumber Van",
     timestamp: "07:10",
@@ -812,7 +812,7 @@ export const events: EventsTypes = [
     subject: "Special Agent",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "CharacterIntroduction",
     context: "FBI Plumber Van",
     timestamp: "07:10",
@@ -821,7 +821,7 @@ export const events: EventsTypes = [
     subject: "Special Agent",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "DamnIt",
     context: "FBI Building",
     timestamp: "10:35",
@@ -834,7 +834,7 @@ export const events: EventsTypes = [
     subject: "Hardison",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "TheGrifter",
     context: "Moscone Mansion",
     timestamp: "13:15",
@@ -842,7 +842,7 @@ export const events: EventsTypes = [
     subject: "Ruby Holden - Peerless events - Wedding planner",
   },
   {
-    episode: 103,
+    eps: 103,
     type: "NewJobUnlocked",
     context: "Moscone Mansion",
     timestamp: "14:41",
@@ -854,7 +854,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "NotableQuotes",
     context: "Moscone Mansion",
     timestamp: "15:20",
@@ -863,7 +863,7 @@ export const events: EventsTypes = [
     text: ["People are like knives. Everything is in context."],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "ElliotTheChef",
     context: "Moscone Mansion",
     timestamp: "15:30",
@@ -873,7 +873,7 @@ export const events: EventsTypes = [
     text: ["Does this look like a food court? I want high end food! HIGH END!"],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "NateTheDrunk",
     context: "Moscone Mansion",
     timestamp: "18:07",
@@ -882,7 +882,7 @@ export const events: EventsTypes = [
     text: ["No... no no thank you.", "Come on.", "Ok."],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "PriorJobs",
     context: "Leverage Inc.",
     timestamp: "20:50",
@@ -898,7 +898,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "RomanticMoments",
     context: "Moscone Mansion",
     timestamp: "21:40",
@@ -911,7 +911,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "ElliotTheHitter",
     context: "Moscone Mansion",
     timestamp: "24:40",
@@ -927,7 +927,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "ElliotTheChef",
     context: "Moscone Mansion",
     timestamp: "27:10",
@@ -942,7 +942,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "Flashback",
     context: "Getting hit in the face with burning rubble",
     timestamp: "32:25",
@@ -951,7 +951,7 @@ export const events: EventsTypes = [
     text: ["Ahhh! It burns"],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "RomanticMoments",
     context: "Moscone Mansion",
     timestamp: "33:55",
@@ -962,7 +962,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "NotableQuotes",
     context: "Moscone Mansion",
     timestamp: "36:06",
@@ -976,7 +976,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 103,
+    eps: 103,
     type: "ElliotTheChef",
     context: "Moscone Mansion",
     timestamp: "42:28",
@@ -984,7 +984,7 @@ export const events: EventsTypes = [
     subject: "Spaghetti and meatballs",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "Flashback",
     context: "Nate Ford in the hospital as a defibrillator is used on his son.",
     timestamp: "02:25",
@@ -996,7 +996,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "NotableQuotes",
     context: "Leverage Inc.",
     timestamp: "02:50",
@@ -1007,7 +1007,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "NateTheDrunk",
     context: "Leverage Inc.",
     timestamp: "04:00",
@@ -1019,7 +1019,7 @@ export const events: EventsTypes = [
     subject: "Nate Ford",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "DirtyEvenForUs",
     context: "Leverage Inc.",
     timestamp: "03:57",
@@ -1034,7 +1034,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "LetsGoStealA",
     context: "Leverage Inc.",
     timestamp: "04:16",
@@ -1043,7 +1043,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "SomethingCompleteDifferent",
     context: "Ute Ausgartner House - Munich German",
     timestamp: "06:21",
@@ -1052,7 +1052,7 @@ export const events: EventsTypes = [
     subject: "Photoshopped picture of Sophie",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "TheGrifter",
     context: "Powder Bear Ski Resort - Aspen Co",
     timestamp: "06:06",
@@ -1060,7 +1060,7 @@ export const events: EventsTypes = [
     subject: "Lena Christinger - Professional Luger",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "LetsGoStealA",
     context: "Powder Bear Ski Resort - Aspen Co",
     timestamp: "08:35",
@@ -1069,7 +1069,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "TheGrifter",
     context: "Powder Bear Ski Resort - Aspen Co",
     timestamp: "09:07",
@@ -1077,7 +1077,7 @@ export const events: EventsTypes = [
     subject: "Ben Svetkey - Innovative Resort Solutions",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "ParkerIsCrazy",
     context: "Powder Bear Ski Resort - Aspen Co",
     timestamp: "09:51",
@@ -1086,7 +1086,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "TheGrifter",
     context: "Powder Bear Ski Resort - Aspen Co",
     timestamp: "11:05",
@@ -1094,7 +1094,7 @@ export const events: EventsTypes = [
     subject: "Hans Von Schwesterkrank - Powder Bear Ski Resort Manager",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "DamnIt",
     context: "Miami, FL",
     timestamp: "15:40",
@@ -1106,7 +1106,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "ConName",
     context: "Miami, FL",
     timestamp: "19:40",
@@ -1114,7 +1114,7 @@ export const events: EventsTypes = [
     subject: "The London Spank?",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "ConName",
     context: "Miami, FL",
     timestamp: "19:44",
@@ -1122,7 +1122,7 @@ export const events: EventsTypes = [
     subject: "The Geneva Paso Doble",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "ConName",
     context: "Miami, FL",
     timestamp: "19:47",
@@ -1131,7 +1131,7 @@ export const events: EventsTypes = [
     text: ["Its like the Cheery Pie but with life-guards."],
   },
   {
-    episode: 104,
+    eps: 104,
     type: "ConName",
     context: "Miami, FL",
     timestamp: "19:50",
@@ -1139,7 +1139,7 @@ export const events: EventsTypes = [
     subject: "The Cherry Pie",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "ConName",
     context: "Miami, FL",
     timestamp: "19:44",
@@ -1151,7 +1151,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 104,
+    eps: 104,
     type: "SomeoneIsAngry",
     context: "Miami, FL",
     timestamp: "25:40",
@@ -1162,7 +1162,7 @@ export const events: EventsTypes = [
     subject: "Nate Ford",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "AlternatePlans",
     context: "Miami, FL",
     timestamp: "",
@@ -1177,7 +1177,7 @@ export const events: EventsTypes = [
     subject: "Parker",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "ConName",
     context: "Miami, FL",
     timestamp: "26:45",
@@ -1185,7 +1185,7 @@ export const events: EventsTypes = [
     subject: "Cross the wires",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "LetsGoStealA",
     context: "Powder Bear Ski Resort - Aspen Co",
     timestamp: "08:35",
@@ -1197,7 +1197,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "SophieTheActress",
     context: "Miami, FL",
     timestamp: "28:24",
@@ -1209,7 +1209,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 104,
+    eps: 104,
     type: "ParkerIsCrazy",
     context: "Miami, FL",
     timestamp: "28:51",
@@ -1222,7 +1222,7 @@ export const events: EventsTypes = [
     subject: "Parker",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "TheGrifter",
     context: "Genogrow Industries",
     timestamp: "01:20",
@@ -1230,7 +1230,7 @@ export const events: EventsTypes = [
     subject: "Michelle the French Dancer",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "DamnIt",
     context: "Genogrow Industries",
     timestamp: "02:20",
@@ -1244,7 +1244,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 105,
+    eps: 105,
     type: "DirtyEvenForUs",
     context: "Genogrow Industries",
     timestamp: "06:28",
@@ -1256,7 +1256,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 105,
+    eps: 105,
     type: "TheGrifter",
     context: "Los Angeles International Airport",
     timestamp: "07:35",
@@ -1264,7 +1264,7 @@ export const events: EventsTypes = [
     subject: "Tom Baker",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "TheGrifter",
     context: "Los Angeles International Airport",
     timestamp: "07:35",
@@ -1272,7 +1272,7 @@ export const events: EventsTypes = [
     subject: "Sarah Jane Baker",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "TheGrifter",
     context: "Los Angeles International Airport",
     timestamp: "07:41",
@@ -1280,7 +1280,7 @@ export const events: EventsTypes = [
     subject: "Air-Marshall Elliot",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "TheGrifter",
     context: "Los Angeles International Airport",
     timestamp: "08:06",
@@ -1288,7 +1288,7 @@ export const events: EventsTypes = [
     subject: "The Flight Attendant",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "RomanticMoments",
     context: "Los Angeles International Airport",
     timestamp: "09:15",
@@ -1297,7 +1297,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "TheMastermind",
     context: "Los Angeles International Airport",
     timestamp: "10:30",
@@ -1309,7 +1309,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 105,
+    eps: 105,
     type: "ParkerIsCrazy",
     context: "Los Angeles International Airport",
     timestamp: "12:05",
@@ -1320,7 +1320,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 105,
+    eps: 105,
     type: "TheGrifter",
     context: "Genogrow Industries",
     timestamp: "14:45",
@@ -1328,7 +1328,7 @@ export const events: EventsTypes = [
     subject: "The Maintenance Guy & The Executive",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "ElliotTheHitter",
     context: "Flight to Caymans",
     timestamp: "29:15",
@@ -1336,7 +1336,7 @@ export const events: EventsTypes = [
     subject: "Taking out a hitman in an airplane bathroom",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "AlecTheHacker",
     context: "Genogrow Industries",
     timestamp: "33:20",
@@ -1345,7 +1345,7 @@ export const events: EventsTypes = [
       "Remote accessing a plane's electrical system from 3000 miles away and saving the Leverage Inc. Team",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "PriorJobs",
     context: "Leverage Inc",
     timestamp: "41:50",
@@ -1356,7 +1356,7 @@ export const events: EventsTypes = [
     subject: "Sophie Devereaux",
   },
   {
-    episode: 105,
+    eps: 105,
     type: "PriorJobs",
     context: "Leverage Inc",
     timestamp: "41:55",
@@ -1369,7 +1369,7 @@ export const events: EventsTypes = [
   {
     character: "Parker",
     context: "Camden Illinois, 20 years ago",
-    episode: 106,
+    eps: 106,
     subject: "",
     timestamp: "03:30",
     type: "ParkerIsCrazy",
@@ -1382,7 +1382,7 @@ export const events: EventsTypes = [
   {
     character: "Elliot Spencer",
     context: "",
-    episode: 106,
+    eps: 106,
     subject: "",
     timestamp: "04:12",
     type: "SomeoneIsAngry",
@@ -1395,7 +1395,7 @@ export const events: EventsTypes = [
   {
     character: "Sophie Devereaux",
     context: "Turf Club Kensington Race Track",
-    episode: 106,
+    eps: 106,
     subject: "Catherine Beth Lovery, but you can call her Kitty",
     text: ["Mrs Devereaux, how is your Souther Belle?"],
     timestamp: "06:15",
@@ -1404,7 +1404,7 @@ export const events: EventsTypes = [
   {
     character: "Sophie Devereaux",
     context: "Turf Club Kensington Race Track",
-    episode: 106,
+    eps: 106,
     subject: "Alan Foss",
     timestamp: "06:34",
     type: "TheLift",
@@ -1412,7 +1412,7 @@ export const events: EventsTypes = [
   {
     character: "Alec Hardison",
     context: "Turf Club Kensington Race Track - Backroom Poker Game",
-    episode: 106,
+    eps: 106,
     subject: "Sheikh Khalid of Dubai",
     timestamp: "08:00",
     type: "TheGrifter",
@@ -1420,7 +1420,7 @@ export const events: EventsTypes = [
   {
     character: "Elliot Spencer",
     context: "Turf Club Kensington Race Track - Backroom Poker Game",
-    episode: 106,
+    eps: 106,
     subject: "Brad Macky - Horse Trainer",
     timestamp: "08:12",
     type: "TheGrifter",
@@ -1428,7 +1428,7 @@ export const events: EventsTypes = [
   {
     character: "Nate Ford",
     context: "Turf Club Kensington Race Track - Backroom Poker Game",
-    episode: 106,
+    eps: 106,
     subject: "Bob Gibson - Horse Owner",
     timestamp: "08:27",
     type: "TheGrifter",
@@ -1436,7 +1436,7 @@ export const events: EventsTypes = [
   {
     character: "Nate Ford",
     context: "Turf Club Kensington Race Track - Backroom Poker Game",
-    episode: 106,
+    eps: 106,
     subject: "Bob Gibson",
     timestamp: "11:00",
     text: [
@@ -1445,7 +1445,7 @@ export const events: EventsTypes = [
     type: "TheSting",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "CharacterIntroduction",
     context: "Turf Club Kensington Race Track - parking lot",
     text: [
@@ -1458,7 +1458,7 @@ export const events: EventsTypes = [
     subject: "IYS Insurance",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "NotableQuotes",
     context: "Turf Club Kensington Race Track - parking lot",
     text: [
@@ -1469,7 +1469,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "PriorJobs",
     context: "Racerack parking lot",
     text: [
@@ -1480,7 +1480,7 @@ export const events: EventsTypes = [
     subject: "Sophie Devereaux",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "BlastFromThePast",
     context: "Horse Stalls",
     text: [
@@ -1492,7 +1492,7 @@ export const events: EventsTypes = [
     subject: "Elliot Spencer",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "Outmaneuvered",
     context: "Race Track parking lot",
     text: [
@@ -1505,7 +1505,7 @@ export const events: EventsTypes = [
     subject: "Alec Hardison & Perker",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "PriorJobs",
     context:
       "Elliot is being interrogated by vaguely East Asian characters off screen",
@@ -1519,7 +1519,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "TastefulCutAway",
     context: "Horse stall",
     timestamp: "19:45",
@@ -1527,7 +1527,7 @@ export const events: EventsTypes = [
     subject: "Aimee Martin",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "ConName",
     context: "Turf Club Kensington Race Track",
     text: [
@@ -1539,7 +1539,7 @@ export const events: EventsTypes = [
     subject: "The Lost Heir",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "LetsGoStealA",
     context: "Turf Club Kensington Race Track",
     text: [
@@ -1550,7 +1550,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "TheGrifter",
     character: "Sophie Devereaux",
     timestamp: "22:45",
@@ -1558,7 +1558,7 @@ export const events: EventsTypes = [
     subject: "Lena Waters",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "AlecTheHacker",
     context: "Turf Club Kensington Race Track",
     text: [
@@ -1570,7 +1570,7 @@ export const events: EventsTypes = [
     subject: "Kentucky Thunder's trainer",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "Seriously",
     context: "Air ducts above horse teasing stall",
     text: [
@@ -1582,7 +1582,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 106,
+    eps: 106,
     type: "Outmaneuvered",
     context: "Turf Club Kensington Race Track",
     text: ["Did you get some nice pictures?"],
@@ -1591,7 +1591,7 @@ export const events: EventsTypes = [
     subject: "Leverage Inc.",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "SophieTheActress",
     context: "Leverage Inc. Office",
     text: ["Yeah it was like a horror movie! Attention must be Paid!"],
@@ -1600,7 +1600,7 @@ export const events: EventsTypes = [
     subject: "Willie Loman - Death of a Salesman",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "Flashback",
     context:
       "Elliot has a gun placed to his head by vaguely East Asian characters off screen",
@@ -1610,7 +1610,7 @@ export const events: EventsTypes = [
       "That was the worse night of my life... Come on man you've been in worse situations.",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "NateDoesntLikeHospitals",
     context: "Father Paul's hospital room",
     text: ["I know hospitals are tough for you."],
@@ -1619,7 +1619,7 @@ export const events: EventsTypes = [
     subject: "Nate Ford",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "Flashback",
     context: "Child's baptism with Nate and Father Paul",
     timestamp: "05:33",
@@ -1627,7 +1627,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "ElliotTheHitter",
     text: [
       "This is why I don't like guns. They have a specific range of effocacy. Most guys make one mistake, they get too close.",
@@ -1638,7 +1638,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "DirtyEvenForUs",
     text: [
       "Who rolled the priest?",
@@ -1650,7 +1650,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "AlecTheHacker",
     context: "",
     text: [
@@ -1662,7 +1662,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "DirtyEvenForUs",
     text: ["This guy beat up a priest? We're not going easy on him..."],
     context: "Leverage Inc.",
@@ -1671,7 +1671,7 @@ export const events: EventsTypes = [
     subject: "Andrew Grant",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "TheGrifter",
     context: "",
     timestamp: "09:25",
@@ -1679,7 +1679,7 @@ export const events: EventsTypes = [
     subject: "Christy Connely - Reporter with the Ledger",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "ParkerIsCrazy",
     context: "The mark is trapped in an elevator...",
     text: [
@@ -1693,7 +1693,7 @@ export const events: EventsTypes = [
     subject: "Andrew Grant",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "LetsGoStealA",
     context: "",
     text: [
@@ -1705,7 +1705,7 @@ export const events: EventsTypes = [
     subject: "Miracle",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "NewJobUnlocked",
     text: [
       "I went to school with father Paul. To seminary school.",
@@ -1717,7 +1717,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "OhHellNo",
     context: "Leverage Inc",
     text: [
@@ -1729,7 +1729,7 @@ export const events: EventsTypes = [
     subject: "Miracles",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "RomanticMoments",
     context: "",
     text: ["You never cheated... that's what made it fun.", "What about now?"],
@@ -1738,7 +1738,7 @@ export const events: EventsTypes = [
     subject: "",
   },
   {
-    episode: 107,
+    eps: 107,
     type: "NotableQuotes",
     context: "She's from New Zealand...",
     text: ["Are you even British?"],
@@ -1747,7 +1747,7 @@ export const events: EventsTypes = [
     subject: "Sophie Devereaux",
   },
   {
-    episode: 108,
+    eps: 108,
     type: "NotableQuotes",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "01:31",
@@ -1756,7 +1756,7 @@ export const events: EventsTypes = [
     text: ["Trick to the one horse town? Being the horse."],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "ConName",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "02:22",
@@ -1768,7 +1768,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "ParkerIsCrazy",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "03:01",
@@ -1781,7 +1781,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "TheGrifter",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "03:30",
@@ -1789,7 +1789,7 @@ export const events: EventsTypes = [
     subject: "Janet, not the Branch Manager",
   },
   {
-    episode: 108,
+    eps: 108,
     type: "OhHellNo",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "04:58",
@@ -1802,7 +1802,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "TheGrifter",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "11:00",
@@ -1810,7 +1810,7 @@ export const events: EventsTypes = [
     subject: "Agent Leonard",
   },
   {
-    episode: 108,
+    eps: 108,
     type: "TheGrifter",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "11:02",
@@ -1818,7 +1818,7 @@ export const events: EventsTypes = [
     subject: "Agent Elmore",
   },
   {
-    episode: 108,
+    eps: 108,
     type: "SomethingCompleteDifferent",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "15:00",
@@ -1831,7 +1831,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "NotableQuotes",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "19:50",
@@ -1843,7 +1843,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "LetsGoStealA",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "20:55",
@@ -1855,7 +1855,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "NotableQuotes",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "24:45",
@@ -1869,7 +1869,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "TheGrifter",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "27:00",
@@ -1877,7 +1877,7 @@ export const events: EventsTypes = [
     subject: "Carl the money-launderer",
   },
   {
-    episode: 108,
+    eps: 108,
     type: "AgeOfThe",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "41:00",
@@ -1886,7 +1886,7 @@ export const events: EventsTypes = [
     text: ["You're still a geek...", "Geek power baby! Stay strong!"],
   },
   {
-    episode: 108,
+    eps: 108,
     type: "NewJobUnlocked",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "42:07",
@@ -1901,7 +1901,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "SomethingCompleteDifferent",
     context: "Leverage HQ",
     timestamp: "02:30",
@@ -1913,7 +1913,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "ConName",
     context: "Imperial Valley Bank - Juan CA",
     timestamp: "04:12",
@@ -1926,7 +1926,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "PriorJobs",
     context: "American Embassy, Belgrade",
     timestamp: "06:00",
@@ -1942,7 +1942,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "TheLift",
     context: "American Embassy, Belgrade",
     timestamp: "02:30",
@@ -1951,7 +1951,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "TheGrifter",
     context: "American Embassy, Belgrade",
     timestamp: "08:10",
@@ -1965,7 +1965,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "TheGrifter",
     context: "American Embassy, Belgrade",
     timestamp: "02:30",
@@ -1976,7 +1976,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "DirtyEvenForUs",
     context: "American Embassy, Belgrade",
     timestamp: "1:50",
@@ -1993,7 +1993,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "ParkerIsCrazy",
     context: "American Embassy, Belgrade",
     timestamp: "12:18",
@@ -2002,7 +2002,7 @@ export const events: EventsTypes = [
     text: ["Not Everyone is worth saving."],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "LetsGoStealA",
     context: "American Embassy, Belgrade",
     timestamp: "14:23",
@@ -2014,7 +2014,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "TheLift",
     context: "Movie Set - Belgrade",
     timestamp: "15:20",
@@ -2027,7 +2027,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "TheGrifter",
     context: "Movie Set - Belgrade",
     timestamp: "16:26",
@@ -2036,7 +2036,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "TheGrifter",
     context: "Movie Set - Belgrade",
     timestamp: "16:40",
@@ -2045,7 +2045,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "TheGrifter",
     context: "Movie Set - Belgrade",
     timestamp: "17:23",
@@ -2054,7 +2054,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "SophieTheActress",
     context: "Movie Set - Belgrade",
     timestamp: "18:25",
@@ -2065,7 +2065,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "TheGrifter",
     context: "Movie Set - Belgrade",
     timestamp: "17:23",
@@ -2074,7 +2074,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "SophieTheActingCoach",
     context: "Movie Set - Belgrade",
     timestamp: "19:30",
@@ -2088,7 +2088,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "SophieTheActress",
     context: "Movie Set - Belgrade",
     timestamp: "21:50",
@@ -2097,7 +2097,7 @@ export const events: EventsTypes = [
     text: ["She can't act...", "She can act... when its an act..."],
   },
   {
-    episode: 109,
+    eps: 109,
     type: "NotableQuotes",
     context: "Orphanage",
     timestamp: "36:30",
@@ -2109,7 +2109,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "ComeFlyWithMe",
     context: "Leverage Inc.",
     timestamp: "00:53",
@@ -2121,7 +2121,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheGrifter",
     context: "Leverage Inc.",
     timestamp: "01:24",
@@ -2133,7 +2133,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheMastermind",
     context: "Random Warehouse",
     timestamp: "03:12",
@@ -2145,7 +2145,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "AlecTheHacker",
     context: "Leverage Inc",
     timestamp: "03:50",
@@ -2159,7 +2159,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "MotiveInsight",
     context: "Leverage Inc",
     timestamp: "05:00",
@@ -2172,7 +2172,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "MotiveInsight",
     context: "Leverage Inc",
     timestamp: "05:23",
@@ -2185,7 +2185,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheGrifter",
     context: "Leverage Inc",
     timestamp: "17:23",
@@ -2194,7 +2194,7 @@ export const events: EventsTypes = [
     text: ["This isn't for me."],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "NotableQuotes",
     context: "Leverage Inc",
     timestamp: "08:40",
@@ -2205,7 +2205,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "LetsGoStealA",
     context: "Leverage Inc",
     timestamp: "10:00",
@@ -2214,7 +2214,7 @@ export const events: EventsTypes = [
     text: ["She's gonna buy the jury.", "Not if we... steal it first..."],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "OhHellNo",
     context: "Dumpster",
     timestamp: "12:00",
@@ -2226,7 +2226,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheGrifter",
     context: "Leverage Inc",
     timestamp: "12:30",
@@ -2235,7 +2235,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheGrifter",
     context: "Leverage Inc",
     timestamp: "17:23",
@@ -2244,7 +2244,7 @@ export const events: EventsTypes = [
     text: ["This isn't for me."],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "ParkerIsCrazy",
     context: "Leverage Inc",
     timestamp: "15:00",
@@ -2263,7 +2263,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheLift",
     context: "Courtroom",
     timestamp: "16:08",
@@ -2272,7 +2272,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheGrifter",
     context: "Courtroom",
     timestamp: "19:05",
@@ -2281,7 +2281,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheGrifter",
     context: "Leverage Inc",
     timestamp: "17:23",
@@ -2290,7 +2290,7 @@ export const events: EventsTypes = [
     text: ["This isn't for me."],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "AlternatePlans",
     context: "Leverage Inc",
     timestamp: "27:08",
@@ -2304,7 +2304,7 @@ export const events: EventsTypes = [
     ],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheLift",
     context: "Public Street",
     timestamp: "31:20",
@@ -2313,7 +2313,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "TheGrifter",
     context: "Leverage Inc",
     timestamp: "17:23",
@@ -2322,7 +2322,7 @@ export const events: EventsTypes = [
     text: ["This isn't for me."],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "AlecTheHacker", // TODO: Other Episodes need to be checked. Bank Jon in particular.
     context: "Leverage Inc",
     timestamp: "40:27",
@@ -2331,7 +2331,7 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "NotableQuotes",
     context: "Leverage Inc",
     timestamp: "41:36",
@@ -2340,7 +2340,7 @@ export const events: EventsTypes = [
     text: ["Oh sweet mercy cooked flesh!"],
   },
   {
-    episode: 110,
+    eps: 110,
     type: "NotableQuotes",
     context: "Leverage Inc",
     timestamp: "42:05",
@@ -2350,5 +2350,14 @@ export const events: EventsTypes = [
       "Think about it, if you applied yourself Hardision, you could be anything you want.",
       "You know what? I could... I think next week I want to be an astronaut.",
     ],
+  },
+  {
+    eps: 111,
+    type: "NateTheDrunk",
+    context: "Leverage Inc",
+    timestamp: "02:26",
+    character: "Sophie Devereaux",
+    subject: "Nate Ford",
+    text: ["Bit early for that isn't it?"],
   },
 ];

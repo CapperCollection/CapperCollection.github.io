@@ -29,7 +29,7 @@ type RealLifeEvent = {
 
 export type EpisodeType = {
   id: number;
-  episode: number;
+  eps: number;
   description: string;
   turn: string;
   title: string;

@@ -50,7 +50,7 @@ export const Event = ({ event, index }: EventInterface) => {
       roundness="round-lg"
       theme={AvailableThemes[index % AvailableThemes.length]}
       id={`event-${episode}-${index}`}
-      className={classNames(`event episode-${event.episode}`, {
+      className={classNames(`event episode-${event.eps}`, {
         hide: hideEvent,
       })}
       sx="

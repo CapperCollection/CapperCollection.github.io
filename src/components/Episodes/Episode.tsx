@@ -65,7 +65,7 @@ const EpisodeWrapper = styled("article")`
 `;
 
 interface EpisodeInterface {
-  episode: EpisodeType;
+  eps: EpisodeType;
   last: boolean;
   first: boolean;
 }
@@ -81,14 +81,14 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
 
   const handleNextClick = () => {
     scrollToElement(`#episode-${episode.id + 1}`);
-    scrollToElement(`.episode-${episode.episode + 1}`);
+    scrollToElement(`.eps-${episode.eps + 1}`);
   };
   const handlePrevClick = () => {
     scrollToElement(`#episode-${episode.id - 1}`);
-    scrollToElement(`.episode-${episode.episode - 1}`);
+    scrollToElement(`.eps-${episode.eps - 1}`);
   };
   const scrollToEpisode = () => {
-    scrollToElement(`.episode-${episode.episode}`);
+    scrollToElement(`.eps-${episode.eps}`);
   };
 
   const hideEpisode =
@@ -186,7 +186,7 @@ export const Episode = ({ episode, last, first }: EpisodeInterface) => {
           )}
         </ButtonGroup>
         <Button as="a" href={episode.link} secondaryText="Watch Now!">
-          Episode {episode.episode}
+          Episode {episode.eps}
         </Button>
       </footer>
     </EpisodeWrapper>

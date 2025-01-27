@@ -58,7 +58,7 @@ type MainCharactersType =
   | "Elliot Spencer";
 
 export type EventType = {
-  episode: number;
+  eps: number;
   context: string;
   timestamp: string;
   character: MainCharactersType | string;

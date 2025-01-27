@@ -3,7 +3,7 @@ import { EpisodesType } from "./types";
 export const episodes: EpisodesType = [
   {
     id: 0,
-    episode: 101,
+    eps: 101,
     description:
       "Following the theft of corporate IP, an insurance investigator is tasked with recovering the stolen data with the help of a team of thieves.",
     turn: "The Nigerians were not paying a bribe. Dubenich paid them a bribe from within his own offices.",
@@ -34,7 +34,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 1,
-    episode: 102,
+    eps: 102,
     description:
       "A wounded army corporal charges Leverage Inc with the task of exposing corrupt military contractors.",
     turn: "The exploded shipping container was a decoy used to bring the real criminals to the cash together.",
@@ -69,7 +69,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 2,
-    episode: 103,
+    eps: 103,
     description:
       "The owner of a restaurant was forced to take the fall for a murder committed by local mob-boss.",
     turn: "When Moscone seeks to change access to his accounts, the call is intercepted by Hardison and all assets are drained.",
@@ -99,7 +99,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 3,
-    episode: 104,
+    eps: 104,
     description:
       "A national guardsman's home is repossed by an unscrupulous construction firm. As the con goes on a string of similar repossessions is revealed.",
     turn: "The mark is tricked into transferring all his funds offshore, triggering his arrest. The mark's son signs away controll of their company allowing the team to restore all stolen homes.",
@@ -133,7 +133,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 4,
-    episode: 105,
+    eps: 105,
     description:
       "Following the death of a young girl the crew is tasked with retrieving daming evidence en route to the Cayman islands.",
     turn: "The company accountant is convinced to testify against GenoGrow Industries following the attempted murder.",
@@ -163,7 +163,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 5,
-    episode: 106,
+    eps: 106,
     description:
       "After a paddock is set a blaze, the team is dispatched to expose the culprit and make things right.",
     turn: "The horse the antagonist was trying to buy was a decoy to get him to commit insurance fraud.",
@@ -193,7 +193,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 6,
-    episode: 107,
+    eps: 107,
     description:
       "A friend of Nate is attacked on the street and the team is tasked with exposing the corrupt real-estate deal that led to the attack.",
     turn: "By doing the right thing Father Paul implicated Grant as responsible for the fake miracle.",
@@ -219,7 +219,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 7,
-    episode: 108,
+    eps: 108,
     description:
       "The team is in the process of exposing a corrupt job when a second job lands on their head.",
     turn: "After Ellen Clark is rescued, and Judge Roy discovers he is being conned, the situation in the bank is reengineered to make Judge Roy look like he has gone crazy.",
@@ -257,7 +257,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 8,
-    episode: 109,
+    eps: 109,
     description:
       "After an adoption scam is exposed, the team is tasked with recovering the stolen child and subsequently children.",
     turn: "The guns were switched out with props, so the team could get the children out of the orphanage and Nicolas would be in hot water with his clients.",
@@ -295,7 +295,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 9,
-    episode: 110,
+    eps: 110,
     description:
       "While serving on a jury Parker notices the defense is employing some all too familiar tactics...",
     turn: "The video feed seen by Earnshawn was doctored to make it look like Live Herbally won the trial.",
@@ -320,7 +320,33 @@ export const episodes: EpisodesType = [
       },
     ],
     motive: ["Corporate Greed"],
-    exposedTo: [],
+    exposedTo: ["Colleagues"],
+    realLifeEvents: [],
+  },
+  {
+    id: 10,
+    eps: 110,
+    description:
+      "A corrupt money manager steals from a food bank and the team is tasked with recovering the stolen funds. In doing so they find more to the culprit than meets the eye.",
+    turn: "",
+    link: "https://youtu.be/VAJQrkG4z40?si=3mjAIjM112dp-AcH",
+    title: "The 12 Step Job",
+    date: "February 3, 2009",
+    locations: ["Los Angeles, CA"],
+    antagonist: [
+      {
+        name: "Jack Hurley",
+        occupation: "Money Manager",
+      },
+    ],
+    victims: [
+      {
+        name: "Michelle Colby",
+        occupation: "Official with a food bank",
+      },
+    ],
+    motive: ["Corporate Greed"],
+    exposedTo: ["Colleagues"],
     realLifeEvents: [],
   },
 ];
