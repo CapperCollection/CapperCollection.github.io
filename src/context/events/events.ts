@@ -990,7 +990,7 @@ export const events: EventsTypes = [
     timestamp: "02:25",
     character: "Nate Ford",
     text: [
-      "You work hard, you play by the rules. But when you need help, when you really need help, they let you hand. They let you hand and its your kid that pays the price.",
+      "You work hard, you play by the rules. But when you need help, when you really need help, they let you hang. They let you hang and its your kid that pays the price.",
       "Yeah... we uh... we all play the price.",
     ],
     subject: "",
@@ -1947,7 +1947,7 @@ export const events: EventsTypes = [
     context: "American Embassy, Belgrade",
     timestamp: "02:30",
     character: "Elliot Spencer",
-    subject: "Lesbian Bar",
+    subject: "",
     text: [],
   },
   {
@@ -2007,7 +2007,7 @@ export const events: EventsTypes = [
     context: "American Embassy, Belgrade",
     timestamp: "14:23",
     character: "Nate Ford",
-    subject: "Lesbian Bar",
+    subject: "",
     text: [
       "So Irena's expecting to be in a movie, what do we do now?",
       "Now we go steal a movie.",
@@ -2323,7 +2323,7 @@ export const events: EventsTypes = [
   },
   {
     eps: 110,
-    type: "AlecTheHacker", // TODO: Other Episodes need to be checked. Bank Jon in particular.
+    type: "AlecTheHacker",
     context: "Leverage Inc",
     timestamp: "40:27",
     character: "Alec Hardison",
@@ -2359,5 +2359,14 @@ export const events: EventsTypes = [
     character: "Sophie Devereaux",
     subject: "Nate Ford",
     text: ["Bit early for that isn't it?"],
+  },
+  {
+    eps: 111,
+    type: "SomeoneIsAngry",
+    context: "Elliot's truck",
+    timestamp: "06:11",
+    character: "Elliot Spencer",
+    subject: "Alec Hardison",
+    text: ["Don't be made at me but I may have spilled slushing in your car."],
   },
 ];

@@ -42,7 +42,15 @@ interface EventInterface {
 
 export const Event = ({ event, index }: EventInterface) => {
   const { eventFilters } = useEvents();
-  const { episode, context, timestamp, character, subject, text, type } = event;
+  const {
+    eps: episode,
+    context,
+    timestamp,
+    character,
+    subject,
+    text,
+    type,
+  } = event;
   const hideEvent = eventFilters.size > 0 && !eventFilters.has(type);
 
   return (

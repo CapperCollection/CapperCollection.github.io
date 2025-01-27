@@ -336,7 +336,7 @@ export const episodes: EpisodesType = [
     antagonist: [
       {
         name: "Jack Hurley",
-        occupation: "Money Manager",
+        occupation: "Money Manager for McTeague Capital Investments",
       },
     ],
     victims: [

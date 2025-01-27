@@ -70,7 +70,7 @@ interface EpisodeInterface {
   first: boolean;
 }
 
-export const Episode = ({ episode, last, first }: EpisodeInterface) => {
+export const Episode = ({ eps: episode, last, first }: EpisodeInterface) => {
   const { episodeFilters: filters, updateEpisodeFilters } = useEpisodes();
   const [hide, setHide] = React.useState(true);
 

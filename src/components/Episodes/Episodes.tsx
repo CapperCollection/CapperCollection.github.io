@@ -27,7 +27,7 @@ export const Episodes = () => {
       {episodes.map((episode, index, coll) => (
         <Episode
           key={episode.id}
-          episode={episode}
+          eps={episode}
           first={index === 0}
           last={index === coll.length - 1}
         />
