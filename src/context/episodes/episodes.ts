@@ -325,7 +325,7 @@ export const episodes: EpisodesType = [
   },
   {
     id: 10,
-    eps: 110,
+    eps: 111,
     description:
       "A corrupt money manager steals from a food bank and the team is tasked with recovering the stolen funds. In doing so they find more to the culprit than meets the eye.",
     turn: "An explosion goes off seeming to kill Hurley, but in reality the team has helped him slip away from the gangsters.",
@@ -347,6 +347,51 @@ export const episodes: EpisodesType = [
     ],
     motive: ["Addiction"],
     exposedTo: ["Colleagues", "Clients"],
+    realLifeEvents: [],
+  },
+  {
+    id: 11,
+    eps: 112,
+    description:
+      "The team encourages Nate to target his old employer and CEO of IYS in order to steal the First David.",
+    turn: "Sterling has been monitoring the team and is aware of their actions. After Parker and Hardison are captured, they escape when the other team members utilize the skill sets of a hacker and the thief.",
+    link: "https://youtu.be/ZwdlAO4tr8g?si=nalY6EO45yuMBc_X",
+    title: "The First David Job",
+    date: "February 17, 2009",
+    locations: ["Los Angeles, CA"],
+    antagonist: [
+      {
+        name: "Ian Blackpoole",
+        occupation: "CEO of IYS Insurance",
+      },
+    ],
+    victims: [],
+    motive: ["Corporate Greed"],
+    exposedTo: [],
+    realLifeEvents: [],
+  },
+  {
+    id: 12,
+    eps: 113,
+    description: "",
+    turn: "",
+    link: "https://youtu.be/He3ScSePRYM?si=WWX8wZ4HWrvP4UJ1",
+    title: "The Second David Job",
+    date: "February 24, 2009",
+    locations: ["Los Angeles, CA"],
+    antagonist: [
+      {
+        name: "Ian Blackpoole",
+        occupation: "CEO of IYS Insurance",
+      },
+      {
+        name: "James Sterling",
+        occupation: "Vice President of IYS Insurance",
+      },
+    ],
+    victims: [],
+    motive: ["Corporate Greed"],
+    exposedTo: [],
     realLifeEvents: [],
   },
 ];
