@@ -364,6 +364,10 @@ export const episodes: EpisodesType = [
         name: "Ian Blackpoole",
         occupation: "CEO of IYS Insurance",
       },
+      {
+        name: "James Sterling",
+        occupation: "Vice President of IYS Insurance",
+      },
     ],
     victims: [],
     motive: ["Corporate Greed"],

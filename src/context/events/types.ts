@@ -16,11 +16,13 @@ type EventTypeType =
   | "NotableQuotes"
   | "Outmaneuvered"
   | "RecurringMaguffin"
+  | "RecurringCharacter"
   | "RomanticMoments"
   | "SomeoneIsAngry"
   | "TastefulCutAway"
   | "TheGrifter"
   | "Seriously"
+  | "SterlingAlwaysWins"
   /* Thief Moments */
   | "TheLift"
   /* Hardison Moments */
