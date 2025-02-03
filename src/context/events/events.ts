@@ -2367,7 +2367,7 @@ export const events: EventsTypes = [
     timestamp: "06:11",
     character: "Elliot Spencer",
     subject: "Alec Hardison",
-    text: ["Don't be made at me but I may have spilled slushing in your car."],
+    text: ["Don't be made at me but I may have spilled slushie in your car."],
   },
   {
     eps: 111,
@@ -2420,7 +2420,7 @@ export const events: EventsTypes = [
     timestamp: "10:50",
     character: "Nate Ford",
     subject: "Tom Baker and he likes to drink",
-    text: ["Don't be made at me but I may have spilled slushing in your car."],
+    text: [],
   },
   {
     eps: 111,
@@ -2429,7 +2429,7 @@ export const events: EventsTypes = [
     timestamp: "06:11",
     character: "Elliot Spencer",
     subject: "Alec Hardison",
-    text: ["Don't be made at me but I may have spilled slushing in your car."],
+    text: [],
   },
   {
     eps: 111,
@@ -2479,15 +2479,6 @@ export const events: EventsTypes = [
     text: [],
   },
   {
-    eps: 111,
-    type: "SomeoneIsAngry",
-    context: "Second Act Rehab Center",
-    timestamp: "06:11",
-    character: "Elliot Spencer",
-    subject: "Alec Hardison",
-    text: ["Don't be made at me but I may have spilled slushing in your car."],
-  },
-  {
     eps: 112,
     type: "SomeoneIsAngry",
     context: "IYS Party",
@@ -2507,7 +2498,7 @@ export const events: EventsTypes = [
     timestamp: "01:45",
     character: "Sophie Devereaux",
     subject: "Portia delDuccio - From the Vatican Museum",
-    text: ["Don't be made at me but I may have spilled slushing in your car."],
+    text: [],
   },
   {
     eps: 112,
@@ -2525,7 +2516,7 @@ export const events: EventsTypes = [
     timestamp: "06:11",
     character: "Elliot Spencer",
     subject: "Professor Adam Sinclair",
-    text: ["Don't be made at me but I may have spilled slushing in your car."],
+    text: [],
   },
   {
     eps: 112,

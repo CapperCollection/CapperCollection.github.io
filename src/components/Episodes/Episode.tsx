@@ -81,15 +81,13 @@ export const Episode = ({ eps: episode, last, first }: EpisodeInterface) => {
 
   const handleNextClick = () => {
     scrollToElement(`#episode-${episode.id + 1}`);
-    scrollToElement(`.eps-${episode.eps + 1}`);
+    scrollToElement(`.episode-${episode.eps + 1}`);
   };
   const handlePrevClick = () => {
     scrollToElement(`#episode-${episode.id - 1}`);
-    scrollToElement(`.eps-${episode.eps - 1}`);
+    scrollToElement(`.episode-${episode.eps - 1}`);
   };
-  const scrollToEpisode = () => {
-    scrollToElement(`.eps-${episode.eps}`);
-  };
+  const scrollToEpisode = () => scrollToElement(`.episode-${episode.eps}`);
 
   const hideEpisode =
     filters.size > 0 && !episode.motive.some((motive) => filters.has(motive));
@@ -149,16 +147,18 @@ export const Episode = ({ eps: episode, last, first }: EpisodeInterface) => {
               ))}
             </AccordionPanel>
           </AccordionItem>
-          <AccordionItem>
-            <AccordionButton hasIcon>Victims</AccordionButton>
-            <AccordionPanel>
-              {episode.victims.map((victim) => (
-                <p key={victim.name}>
-                  {victim.name} - {victim.occupation}
-                </p>
-              ))}
-            </AccordionPanel>
-          </AccordionItem>
+          {Boolean(episode.victims.length) && (
+            <AccordionItem>
+              <AccordionButton hasIcon>Victims</AccordionButton>
+              <AccordionPanel>
+                {episode.victims.map((victim) => (
+                  <p key={victim.name}>
+                    {victim.name} - {victim.occupation}
+                  </p>
+                ))}
+              </AccordionPanel>
+            </AccordionItem>
+          )}
         </Accordion>
       </Element>
 
