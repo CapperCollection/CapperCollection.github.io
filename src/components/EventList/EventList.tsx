@@ -13,7 +13,7 @@ const EVENT_TYPES = [
   { value: "TitleDrop", name: "Title Drop" },
   { value: "AlternatePlans", name: "Alternate Plan Names" },
   { value: "BoomGoesTheDynamite", name: "Boom Goes The Dynamite" },
-  { value: "ConName", name: "The Con Name" },
+  { value: "ConName", name: "Con Names" },
   { value: "LetsGoStealA", name: "Let's Go Steal A ..." },
   /* Character Development */
   { value: "BlastFromThePast", name: "Blast From The Past" },
