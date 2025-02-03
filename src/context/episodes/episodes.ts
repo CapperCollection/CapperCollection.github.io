@@ -377,8 +377,9 @@ export const episodes: EpisodesType = [
   {
     id: 12,
     eps: 113,
-    description: "",
-    turn: "",
+    description:
+      "The team has disbanded, their headquarters ruble. But still they are drawn back together to take down James Sterline and IYS.",
+    turn: "Nate was not the mastermind, he was the bait. Instead of stealing the Davids, everythign else was taken.",
     link: "https://youtu.be/He3ScSePRYM?si=WWX8wZ4HWrvP4UJ1",
     title: "The Second David Job",
     date: "February 24, 2009",
